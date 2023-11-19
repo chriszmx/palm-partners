@@ -18,6 +18,7 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PALM_PARTNERS }}'
           channelId: live
           projectId: palm-partners
+          entryPoint: ghi
 
 
           # jobs:
