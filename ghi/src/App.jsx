@@ -1,13 +1,16 @@
-
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 function App() {
 
 
   return (
     <>
-    <h1 className="text-3xl text-red-500 font-bold underline">
+    <Navbar />
+    <h1 className="text-3xl text-red-500 font-bold underline pt-40 pb-40">
       Palm Partners!
     </h1>
+    <Footer />
     </>
   )
 }
