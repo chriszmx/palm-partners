@@ -1,6 +1,6 @@
 import React from 'react';
 import video from '../../assets/video/hurricaneVideo.mp4';
-import BBB from '../../assets/BBB-logo-1.png';
+import BBB from '../../assets/BBB-Logo-1.png';
 import FAPIA from '../../assets/fapia.png';
 
 
