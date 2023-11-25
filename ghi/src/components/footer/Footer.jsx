@@ -1,6 +1,5 @@
-import logo from '../../assets/Palm-Partners.svg';
 import transparentLogoWhite from '../../assets/Palm-Partners-white-transparent.png';
-
+import transparentLogoCropped from '../../assets/Palm-Partners-white-transparent-cropped.png';
 const navigation = {
     solutions: [
       { name: 'Marketing', href: '#' },
@@ -91,7 +90,7 @@ const navigation = {
     ],
   }
 
-  export default function Example() {
+  export default function Footer() {
     return (
       <footer className="bg-gray-900" aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
@@ -100,8 +99,8 @@ const navigation = {
         <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <img
-              className="h-40"
-              src={transparentLogoWhite}
+              className="h-12"
+              src={transparentLogoCropped}
               alt="Company name"
             />
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">

@@ -9,8 +9,6 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from '@heroicons/react/20/solid'
-import logo from '../../assets/Palm-Partners.svg';
-import transparentLogo from '../../assets/Palm-Partners-transparent.png';
 import transparentLogoCropped from '../../assets/Palm-Partners-transparent-cropped.png';
 
 const products = [
