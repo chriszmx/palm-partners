@@ -3,6 +3,7 @@ import video from '../../assets/video/hurricaneVideo.mp4';
 import BBB from '../../assets/image/BBB-logo-1.png';
 import FAPIA from '../../assets/image/fapia.png';
 
+
 const VideoHeader = () => {
   // You can adjust the height by changing the h-* value
   const videoHeaderHeight = 'h-96'; // This sets the height to 24rem (96/4 = 24)
