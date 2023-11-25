@@ -1,7 +1,7 @@
 import React from 'react';
 import video from '../../assets/video/hurricaneVideo.mp4';
-import BBB from '../../assets/image/BBB-logo-1.png';
-import FAPIA from '../../assets/image/fapia.png';
+import BBB from '../../assets/BBB-logo-1.png';
+import FAPIA from '../../assets/fapia.png';
 
 
 const VideoHeader = () => {
