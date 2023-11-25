@@ -1,4 +1,7 @@
 import React from 'react';
+import video from '../../assets/video/hurricaneVideo.mp4';
+import BBB from '../../assets/image/BBB-logo-1.png';
+import FAPIA from '../../assets/image/fapia.png';
 
 const VideoHeader = () => {
   // You can adjust the height by changing the h-* value
@@ -9,7 +12,7 @@ const VideoHeader = () => {
       {/* Video container */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="path_to_your_video.mp4" // Replace with the path to your video file
+        src={video}
         autoPlay
         loop
         muted
@@ -19,14 +22,14 @@ const VideoHeader = () => {
       <div className="absolute top-0 left-0 w-full h-full flex items-center pl-10 bg-black bg-opacity-50">
         {/* Adjust padding and background opacity as needed */}
         <div>
-          <h1 className="text-white text-4xl font-bold">PALM PARTNERS</h1>
-          <p className="text-white text-xl">Public Adjusting Loss Management</p>
+          <h1 className="text-white text-6xl font-bold mb-2">PALM PARTNERS</h1>
+          <p className="text-white text-2xl mb-2">Public Adjusting Loss Management</p>
           {/* Placeholder for logos */}
-          <div className="flex mt-4">
+          <div className="flex mt-8">
             {/* Placeholder for BBB logo */}
-            <div className="w-24 h-24 bg-gray-200 mr-4">BBB Logo</div>
+            <div className="w-36 h-auto bg-gray-200 mr-4 rounded-xl"><img src={BBB} alt="BBB" /></div>
             {/* Placeholder for FAPIA logo */}
-            <div className="w-24 h-24 bg-gray-200">FAPIA Logo</div>
+            <div className="w-36 h-auto bg-gray-200 rounded-xl"><img src={FAPIA} alt="FAPIA" /></div>
           </div>
         </div>
       </div>
