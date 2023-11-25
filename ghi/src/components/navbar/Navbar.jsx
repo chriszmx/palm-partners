@@ -9,7 +9,8 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from '@heroicons/react/20/solid'
-import logo from '../../assets/Palm-Partners.svg'
+import logo from '../../assets/Palm-Partners.svg';
+import transparentLogo from '../../assets/Palm-Partners-transparent.png';
 
 const products = [
   {
@@ -51,7 +52,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-30 w-auto" src={logo} alt="" />
+            <img className="h-52 w-auto" src={transparentLogo} alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -80,7 +81,7 @@ export default function Example() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 -translate-y-1"
             >
-              <Popover.Panel className="absolute inset-x-0 top-0 -z-10 bg-white pt-14 shadow-lg ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute inset-x-0 top-10 -z-10 bg-white pt-14 shadow-lg ring-1 ring-gray-900/5">
                 <div className="mx-auto grid max-w-7xl grid-cols-4 gap-x-4 px-6 py-10 lg:px-8 xl:gap-x-8">
                   {products.map((item) => (
                     <div key={item.name} className="group relative rounded-lg p-6 text-sm leading-6 hover:bg-gray-50">
@@ -138,7 +139,7 @@ export default function Example() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-30 w-auto"
+                className="h-52 w-auto"
                 src={logo}
                 alt=""
               />
