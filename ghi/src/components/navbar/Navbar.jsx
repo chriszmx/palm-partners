@@ -2,39 +2,75 @@ import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
+  CloudIcon,
+  FireIcon,
+  ArrowTrendingDownIcon,
+  BanknotesIcon,
+  ShieldExclamationIcon,
+  CurrencyDollarIcon,
+  ArrowPathIcon,
+  BeakerIcon,
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, RectangleGroupIcon } from '@heroicons/react/20/solid'
 import transparentLogoCropped from '../../assets/Palm-Partners-transparent-cropped.png';
 
+
+
 const products = [
   {
-    name: 'Analytics',
-    description: 'Get a better understanding where your traffic is coming from',
+    name: 'Hurricane',
+    description: 'Expert guidance through the complexities of hurricane-related claims',
     href: '#',
-    icon: ChartPieIcon,
+    icon: CloudIcon,
   },
   {
-    name: 'Engagement',
-    description: 'Speak directly to your customers with our engagement tool',
+    name: 'Fire',
+    description: 'Comprehensive assistance for fire damage claims. We’ll help you get back on your feet.',
     href: '#',
-    icon: CursorArrowRaysIcon,
+    icon: FireIcon,
   },
-  { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
+  { name: 'Water / Plumbing', description: 'Navigating water damage claims with precision and expertise.', href: '#', icon: BeakerIcon },
   {
-    name: 'Integrations',
-    description: 'Your customers’ data will be safe and secure',
+    name: 'Sinkhole',
+    description: 'Dedicated support for dealing with unexpected sinkhole damages.',
     href: '#',
-    icon: SquaresPlusIcon,
+    icon: ArrowTrendingDownIcon,
+  },
+  {
+    name: 'Collapse',
+    description: 'Assisting with claims for structural collapses with attention to detail and care.',
+    href: '#',
+    icon: BanknotesIcon,
+  },
+  {
+    name: 'Vandalism / Theft',
+    description: 'Securing your rights in vandalism and theft incidents with our expert guidance.',
+    href: '#',
+    icon: ShieldExclamationIcon,
+  },
+  {
+    name: 'Loss of Business Income',
+    description: 'Ensuring fair compensation for business income losses.',
+    href: '#',
+    icon: CurrencyDollarIcon,
+  },
+  {
+    name: 'Wind / Tornado',
+    description: 'Expertise in handling wind and tornado damage claims.',
+    href: '#',
+    icon: ArrowPathIcon,
+  },
+  {
+    name: 'Hail / Wind Driven Rain',
+    description: 'Effective representation for hail and wind driven rain damage claims.',
+    href: '#',
+    icon: CloudIcon,
   },
 ]
 const callsToAction = [
   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
+  { name: 'Contact Us', href: '#', icon: PhoneIcon },
   { name: 'View all products', href: '#', icon: RectangleGroupIcon },
 ]
 
@@ -50,7 +86,7 @@ export default function Example() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">Palm Partners</span>
             <img className="h-12 w-auto" src={transparentLogoCropped} alt="" />
           </a>
         </div>
@@ -67,7 +103,7 @@ export default function Example() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover>
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Product
+              Services
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
 
@@ -116,20 +152,21 @@ export default function Example() {
           </Popover>
 
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
+            About Us
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
+            Our Team
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Company
+            Contact Us
           </a>
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        {/* incase we need a login later */}
+        {/* <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
-        </div>
+        </div> */}
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
@@ -159,20 +196,21 @@ export default function Example() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Product
+                        Services
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                           aria-hidden="true"
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...products, ...callsToAction].map((item) => (
+                        {[...products].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
                             href={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                           >
+                            <item.icon className="h-5 w-5 inline-block mr-2" aria-hidden="true" />
                             {item.name}
                           </Disclosure.Button>
                         ))}
@@ -184,29 +222,30 @@ export default function Example() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  About Us
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Our Team
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Contact Us
                 </a>
               </div>
-              <div className="py-6">
+              {/* incase we need a login later */}
+              {/* <div className="py-6">
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </Dialog.Panel>
