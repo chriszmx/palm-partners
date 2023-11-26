@@ -17,6 +17,7 @@ const VideoHeader = () => {
         autoPlay
         loop
         muted
+        playsInline
       />
 
       {/* Text container */}
