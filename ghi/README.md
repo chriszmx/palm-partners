@@ -1,3 +1,1 @@
-Hours - setup 1
-2
-
+total hours - 6

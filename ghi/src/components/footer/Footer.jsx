@@ -1,18 +1,6 @@
 // import { PhoneIcon, MailIcon,  } from '@heroicons/react/24/outline';
 import transparentLogoCropped from '../../assets/Palm-Partners-white-transparent-cropped.png';
 const navigation = {
-  solutions: [
-    { name: 'Hurricane', href: '#' },
-    { name: 'Fire', href: '#' },
-    { name: 'Water / Plumbing', href: '#' },
-    { name: 'Sinkhole', href: '#' },
-    { name: 'Collapse', href: '#' },
-    { name: 'Vandalism / Theft', href: '#' },
-    { name: 'Loss of Business Income', href: '#' },
-    { name: 'Wind / Tornado', href: '#' },
-    { name: 'Hail / Wind Driven Rain', href: '#' },
-  ],
-
   company: [
     { name: 'About', href: '#' },
     { name: 'Contact Us', href: '#' },
@@ -89,135 +77,70 @@ const navigation = {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <img
-            className="h-12"
-            src={transparentLogoCropped}
-            alt="Company name"
-          />
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">Company</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.company.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">Legal</h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-300 hover:text-white">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
+    <footer className="bg-gray-900 text-gray-300">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-8 space-y-8 xl:space-y-0">
           <div>
-            <h3 className="text-sm font-semibold leading-6 text-white">Subscribe to our newsletter</h3>
-            <p className="mt-2 text-sm leading-6 text-gray-300">
+            <img className="h-12" src={transparentLogoCropped} alt="Company name" />
+            <p className="mt-4 text-gray-400 text-sm">
               The latest news, articles, and resources, sent to your inbox weekly.
             </p>
-          </div>
-          <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
-            <label htmlFor="email-address" className="sr-only">
-              Email address
-            </label>
-            <input
-              type="email"
-              name="email-address"
-              id="email-address"
-              autoComplete="email"
-              required
-              className="w-full min-w-0 appearance-none rounded-md border-0 bg-white/5 px-3 py-1.5 text-base text-white shadow-sm ring-1 ring-inset ring-white/10 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:w-56 sm:text-sm sm:leading-6"
-              placeholder="Enter your email"
-            />
-            <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
-              <button
-                type="submit"
-                className="flex w-full items-center justify-center rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-              >
+            {/* Simplified subscription form */}
+            <form className="mt-4 flex">
+              <input
+                type="email"
+                className="rounded-md border-0 bg-white/10 px-4 py-2 mr-2 text-base text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                placeholder="Enter your email"
+              />
+              <button className="rounded-md bg-indigo-500 px-4 py-2 text-sm text-white">
                 Subscribe
               </button>
-            </div>
-          </form>
-        </div>
-
-
-
-        <div className="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-        <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8 md:mt-0 mt-6">
-          <div>
-            <h3 className="text-sm font-semibold leading-6 text-white">Contact Us</h3>
-            <ul className="mt-4 space-y-4">
-              <li className="flex items-center">
-                {/* <PhoneIcon className="h-6 w-6 text-gray-300 mr-2" aria-hidden="true" /> */}
-                <span className="text-sm leading-6 text-gray-300">+1 (555) 123-4567</span>
-              </li>
-              <li className="flex items-center">
-                {/* <MailIcon className="h-6 w-6 text-gray-300 mr-2" aria-hidden="true" /> */}
-                <span className="text-sm leading-6 text-gray-300">contact@example.com</span>
-              </li>
-              <li className="flex items-center">
-                {/* <LocationMarkerIcon className="h-6 w-6 text-gray-300 mr-2" aria-hidden="true" /> */}
-                <span className="text-sm leading-6 text-gray-300">123 Business Ave, City, State</span>
-              </li>
-            </ul>
+            </form>
           </div>
-          <div>
-            <h3 className="text-sm font-semibold leading-6 text-white">Find Us</h3>
-            <div className="mt-4">
-              {/* Embed Google Maps or similar */}
-              <iframe
-                className="w-100 h-80"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1540.0027647628367!2d-80.10862884714535!3d26.20753376897712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9027aa7aaaaab%3A0xcf26d2203323f5fa!2s6451%20N%20Federal%20Hwy%20%231202%2C%20Fort%20Lauderdale%2C%20FL%2033308!5e1!3m2!1sen!2sus!4v1701018899791!5m2!1sen!2sus"
-                width="600"
-                height="450"
-                style={{ border: "0" }}
-                allowFullScreen=""
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Palm Partners Location"
-                frameBorder="0"
-                allow="fullscreen"
-                aria-hidden="false"
-                tabIndex="0"
-              ></iframe>
+
+          {/* Responsive grid for navigation */}
+          <div className="grid grid-cols-2 gap-8 xl:col-span-2">
+            <div className="space-y-4">
+              <h3 className="text-sm font-semibold">Company</h3>
+              <ul>
+                {navigation.company.map((item) => (
+                  <li key={item.name}>
+                    <a href={item.href} className="text-sm hover:text-white">
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="space-y-4">
+              <h3 className="text-sm font-semibold">Legal</h3>
+              <ul>
+                {navigation.legal.map((item) => (
+                  <li key={item.name}>
+                    <a href={item.href} className="text-sm hover:text-white">
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-        </div>
 
-        <div className="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-          <div className="flex space-x-6 md:order-2">
-            {navigation.social.map((item) => (
-              <a key={item.name} href={item.href} className="text-gray-500 hover:text-gray-400">
-                <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
-              </a>
-            ))}
+        <div className="mt-12 border-t border-gray-800 pt-8">
+          <div className="flex justify-between items-center">
+            <p className="text-xs text-gray-400">
+              &copy; 2024 Palm Partners, Inc. All rights reserved.
+            </p>
+            <div className="flex space-x-6">
+              {navigation.social.map((item) => (
+                <a key={item.name} href={item.href} className="hover:text-gray-400">
+                  <item.icon className="h-6 w-6" />
+                </a>
+              ))}
+            </div>
           </div>
-          <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
-            &copy; 2024 Palm Partners, Inc. All rights reserved.
-          </p>
         </div>
       </div>
     </footer>
