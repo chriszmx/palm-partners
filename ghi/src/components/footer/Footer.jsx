@@ -188,15 +188,19 @@ export default function Footer() {
               {/* Embed Google Maps or similar */}
               <iframe
                 className="w-100 h-80"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1540.0027647628367!2d-80.10862884714535!3d26.20753376897712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9027aa7aaaaab%3A0xcf26d2203323f5fa!2s6451%20N%20Federal%20Hwy%20%231202%2C%20Fort%20Lauderdale%2C%20FL%2033308!5e1!3m2!1sen!2sus!4v1701018899791!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                title="Company Location"
-                frameBorder="0"
-                style={{ border: 0 }}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1540.0027647628367!2d-80.10862884714535!3d26.20753376897712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9027aa7aaaaab%3A0xcf26d2203323f5fa!2s6451%20N%20Federal%20Hwy%20%231202%2C%20Fort%20Lauderdale%2C%20FL%2033308!5e1!3m2!1sen!2sus!4v1701018899791!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style={{ border: "0" }}
                 allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Palm Partners Location"
+                frameBorder="0"
+                allow="fullscreen"
                 aria-hidden="false"
                 tabIndex="0"
               ></iframe>
-
             </div>
           </div>
         </div>
