@@ -3,7 +3,7 @@ import transparentLogoCropped from '../../assets/Palm-Partners-white-transparent
 const navigation = {
   company: [
     { name: 'About', href: '#' },
-    { name: 'Contact Us', href: '#' },
+    { name: 'Contact Us', href: 'contact-us' },
   ],
   legal: [
     { name: 'Claim', href: '#' },
