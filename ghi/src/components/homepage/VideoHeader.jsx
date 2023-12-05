@@ -3,39 +3,59 @@ import video from '../../assets/video/hurricaneVideo.mp4';
 import BBB from '../../assets/BBB-Logo-1.png';
 import FAPIA from '../../assets/fapia.png';
 
-
 const VideoHeader = () => {
-  // You can adjust the height by changing the h-* value
-  const videoHeaderHeight = 'h-96'; // This sets the height to 24rem (96/4 = 24)
-
   return (
-    <div className={`relative ${videoHeaderHeight} w-full overflow-hidden`}>
-      {/* Video container */}
-      <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src={video}
-        autoPlay
-        loop
-        muted
-        playsInline
-      />
+    <>
+      <style>
+        {`
+          .video-3d-shadow {
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+            transform: translateY(-10px);
+          }
+        `}
+      </style>
 
-      {/* Text container */}
-      <div className="absolute top-0 left-0 w-full h-full flex items-center pl-10 bg-black bg-opacity-50">
-        {/* Adjust padding and background opacity as needed */}
-        <div>
-          <h1 className="text-white text-6xl font-bold mb-2">PALM PARTNERS</h1>
-          <p className="text-white text-2xl mb-2">Public Adjusting Loss Management</p>
-          {/* Placeholder for logos */}
-          <div className="flex mt-8">
-            {/* Placeholder for BBB logo */}
-            <div className="w-36 h-auto bg-gray-200 mr-4 rounded-xl"><img src={BBB} alt="BBB" /></div>
-            {/* Placeholder for FAPIA logo */}
-            <div className="w-36 h-auto bg-gray-200 rounded-xl"><img src={FAPIA} alt="FAPIA" /></div>
+      <div className={`relative h-120 w-full overflow-hidden mb-10 video-3d-shadow`}>
+        {/* Video container */}
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          src={video}
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+
+        {/* Text container */}
+        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-left bg-black bg-opacity-25">
+          <div className="text-center ml-20">
+            <h1 className="text-white text-6xl font-bold mb-6 shadow-md">PALM PARTNERS</h1>
+            <p className="text-white text-3xl mb-8 shadow-md">Public Adjusting Loss Management</p>
+
+            {/* Logos section */}
+            {/* <div className='flex justify-center items-center mb-6'>
+          <Link to="/contact-us" className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+              Contact Us!
+            </Link>
+          </div> */}
+
+            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+              <div className="relative rounded-full px-3 py-1 text-2xl leading-6 text-gray-100 ring-1 ring-white/40 hover:ring-white/80">
+                <a href="/contact-us" className="font-semibold text-white">
+                  <span className="absolute inset-0" aria-hidden="true" />
+                  CONTACT US TODAY
+                </a>
+              </div>
+            </div>
+
+            <div className="flex justify-center items-center gap-4">
+              <img src={BBB} alt="BBB" className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg" />
+              <img src={FAPIA} alt="FAPIA" className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
