@@ -106,9 +106,9 @@ export default function Example() {
                                 <dd>
                                     <a
                                         className="hover:text-gray-900"
-                                        href="mailto:mail@palmpartners.com"
+                                        href="mailto:admin@palmpts.com"
                                     >
-                                        mail@PalmPartners.com
+                                        ADMIN@PALMPTS.com
                                     </a>
                                 </dd>
                             </div>
