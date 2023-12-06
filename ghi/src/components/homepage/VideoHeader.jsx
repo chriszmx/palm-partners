@@ -7,7 +7,7 @@ import FAPIA from "../../assets/fapia.png";
 
 const VideoHeader = () => {
     // Define the video sources here
-    const videos = [video1, video3, video3];
+    const videos = [video1, video2, video3];
     const [fade, setFade] = useState(false);
     const [showOverlay, setShowOverlay] = useState(false);
 
