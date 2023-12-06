@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import video1 from "../../assets/video/hurricaneVideo.mp4";
-// import video2 from "../../assets/video/houseFire.mp4";
+import video2 from "../../assets/video/houseFire.mp4";
 import video3 from "../../assets/video/palmTrees.mp4";
 import BBB from "../../assets/BBB-Logo-1.png";
 import FAPIA from "../../assets/fapia.png";
 
 const VideoHeader = () => {
     // Define the video sources here
-    const videos = [video1, video3];
+    const videos = [video1, video3, video3];
     const [fade, setFade] = useState(false);
     const [showOverlay, setShowOverlay] = useState(false);
 
