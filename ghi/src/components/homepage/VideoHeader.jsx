@@ -28,9 +28,9 @@ const VideoHeader = () => {
 
         {/* Text container */}
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-left bg-black bg-opacity-25">
-          <div className="text-center ml-20">
-            <h1 className="text-white text-6xl font-bold mb-6 shadow-md">PALM PARTNERS</h1>
-            <p className="text-white text-3xl mb-8 shadow-md">Public Adjusting Loss Management</p>
+          <div className="text-center">
+            <h1 className="text-white text-6xl font-bold mb-6">PALM PARTNERS</h1>
+            <p className="text-white text-3xl mb-8">Public Adjusting Loss Management</p>
 
             {/* Logos section */}
             {/* <div className='flex justify-center items-center mb-6'>
