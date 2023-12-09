@@ -37,6 +37,13 @@ const products = [
     href: '#',
     icon: ArrowTrendingDownIcon,
   },
+  { name: 'Mold', description: 'Navigating mold damage claims with precision and expertise.', href: '#', icon: BeakerIcon },
+  {
+    name: 'Sinkhole',
+    description: 'Dedicated support for dealing with unexpected sinkhole damages.',
+    href: '#',
+    icon: ArrowTrendingDownIcon,
+  },
   {
     name: 'Collapse',
     description: 'Assisting with claims for structural collapses with attention to detail and care.',

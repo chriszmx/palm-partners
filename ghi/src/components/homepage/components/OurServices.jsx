@@ -29,6 +29,12 @@ import {
       icon: BeakerIcon,
     },
     {
+      name: 'Mold',
+      description: 'Specializing in water damage claims, we navigate the complexities of plumbing issues, ensuring every detail is addressed for maximum compensation.',
+      href: '#',
+      icon: BeakerIcon,
+    },
+    {
       name: 'Sinkhole',
       description: 'Providing dedicated and specialized support for sinkhole damages, focusing on securing full entitlements under your policy.',
       href: '#',
