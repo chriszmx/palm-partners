@@ -161,7 +161,7 @@ export default function Example() {
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             About Us
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/our-team" className="text-sm font-semibold leading-6 text-gray-900">
             Our Team
           </a>
           <a href="contact-us" className="text-sm font-semibold leading-6 text-gray-900">
@@ -232,7 +232,7 @@ export default function Example() {
                   About Us
                 </a>
                 <a
-                  href="#"
+                  href="/our-team"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Our Team
