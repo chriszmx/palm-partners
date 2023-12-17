@@ -78,7 +78,7 @@ const people = [
         email: "MIKE.M@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "Mike, a seasoned Public Adjuster and UCF graduate, brings a wealth of expertise from his dual roles in managing and settling substantial residential and commercial claims, often exceeding six figures, spanning various damages including hurricanes, fires, mold, plumbing, and wind. His comprehensive understanding of the property industry has proven track record in securing significant settlements make him a pivotal asset in advocating for our clients rights and ensuring optimal outcomes.",
     },
     {
         name: "Frank Stallone",
