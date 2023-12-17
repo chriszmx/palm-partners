@@ -24,7 +24,7 @@ const people = [
         email: "DAVID@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "David is a South Florida native with a background in Territory Management and Claims Processing. He is one of our Senior Adjusters and 2023 Marks 6 years as a full time licensed Public Adjuster. David has handled small and large scale commercial and residential claims across the state, from Pensacola to Miami and everywhere in between. He handles damages from hurricane, windstorm, hail, water, mold, flood, and fre claims. With an obsession to do the job right and address all areas of the policy and property. David takes pride in his settlement results and leaving clients satisfied. Insurance companies don't disrespect policyholders when David is around!",
     },
     {
         name: "Taylor Banks",
@@ -33,7 +33,7 @@ const people = [
         email: "TAYLOR@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "Taylor is one of our most experienced adjusters with settling hundreds of claims resulting in millions of dollars recovered for homeowners. Whether it is a plumbing, fire, or hurricane claim. He has the knowledge to help you get what you deserve. He specializes in commercial claims and large losses. With a background in Finance and a Bachelor's degree from the University of Central Florida, Taylor Joined our team to help make a difference for our clients.",
     },
     {
         name: "Joseph Zanio",
