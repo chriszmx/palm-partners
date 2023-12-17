@@ -132,7 +132,7 @@ const people = [
         email: "VLAD@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "Vladimir, one of our lead network adjusters, has consistently showcased his adeptness in handling property claims with remarkable efficiency. He maintains one of the highest success rates in property settlements within our team, testament to his skill and dedication. Vladimir's adept handling extends to a broad spectrum of property damage cases encompassing plumbing, roofing, fire, and flood-related incidents bringing in-dept expertise to these nuanced areas. His rich background in the insurance sector has seamlessly transitioned into his role as a public adjuster, ensuring that he approaches each claim with a holistic understanding and a client-focused perspective.",
     },
     {
         name: "Trey Steinberger",
