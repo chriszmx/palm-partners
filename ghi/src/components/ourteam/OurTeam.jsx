@@ -96,7 +96,7 @@ const people = [
         email: "DANIEL@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "With his background in home renovations, Daniel has been extremely successful in recovering money for new roofs, and plumbing claims. As a successful adjuster he demonstrates a passion for helping others with professionalism. Daniel is there when you nee him the most.",
     },
     {
         name: "Hamon Burkhardt",
