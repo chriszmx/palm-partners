@@ -172,7 +172,7 @@ const people = [
     },
     {
         name: "Mariana Esquival",
-        role: "Office Manager",
+        role: "Accounting / Front Office",
         phone: "",
         email: "",
         imageUrl:
@@ -190,7 +190,7 @@ const people = [
     },
     {
         name: "Shekeria Cook",
-        role: "Office Manager",
+        role: "Claims Specialist",
         phone: "",
         email: "",
         imageUrl:
