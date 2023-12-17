@@ -215,12 +215,12 @@ export default function OurTeam() {
                 </div>
                 <ul
                     role="list"
-                    className="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
+                    className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
                 >
                     {people.map((person) => (
                         <li
                             key={person.name}
-                            className="flex flex-col gap-6 lg:flex-row"
+                            className="flex flex-col gap-6"
                         >
                             <img
                                 className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
@@ -252,7 +252,7 @@ export default function OurTeam() {
                                     </a>
                                 </p>
 
-                                <p className="mt-6 text-base leading-7 text-gray-600">
+                                <p className="mt-6 text-base leading-7 text-gray-600 text-justify">
                                     {person.bio}
                                 </p>
                             </div>
