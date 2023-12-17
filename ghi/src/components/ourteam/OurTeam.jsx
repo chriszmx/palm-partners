@@ -150,7 +150,7 @@ const people = [
         email: "HOWARD@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "Howard Sanders is a Florida native who grew up in South Florida and has worked and lived in Tallahassee, Orlando, and South Florida. Howard graduating from UCF with a bachelors degree and worked as an independent insurance adjuster for 2+ years before switching to be a public adjuster assisting homeowners with their residential property claims.",
     },
 ];
 
