@@ -42,7 +42,7 @@ const people = [
         email: "JOEY@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "A seasoned Public Adjuster with over a decade of experience in the insurance industry. Joseph holds both a 320 Public Adjusting license and a 220 All Lines licenses. Graduating with honors in Communications from Florida International University, he leverages his academic background, industry training, and knowledge to expertly analyze policies, ensuring clients receive maximum compensation. Joseph has successfully recovered millions in insurance claims funds, handling a wide range of issues, from catastrophic events like hurricanes to common problems like fires and leaks. His commitment involves guiding clients through various claim scenarios, including but not limited to underfunded, denied, and delayed claims. This achieved with a focus on preserving policy rights for a secure financial recovery in the face of unexpected events.",
     },
     {
         name: "Brandon Vetti",
