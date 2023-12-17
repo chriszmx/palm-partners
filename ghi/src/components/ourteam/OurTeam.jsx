@@ -141,7 +141,7 @@ const people = [
         email: "TREY@PALMPTS.COM",
         imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-        bio: "...",
+        bio: "Trey comes from a lineage of excellence in construction, with his father being a renowned high-end builder overseeing projects valued at over $10 million. While Trey proudly serves as a firefighter, he also possesses an innate understanding of the construction industry, having spent significant time working alongside his family on upscale projects. His expertise extends to managing property claims for the firm, where he boasts one of the swiftest settlement turnaround times. Trey's proficiency encompasses both residential and commercial claims, making him an invaluable asset to the team.",
     },
     {
         name: "Howard Sanders",
