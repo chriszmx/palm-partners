@@ -3,6 +3,7 @@ import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
 import fletcherPic from "../../../assets/employee-images/fletcher-liu.png";
 import reynelPic from "../../../assets/employee-images/reynel-lavandera.png";
 import michaelMPic from "../../../assets/employee-images/michael-mastromarino.png";
+import michaelPic from "../../../assets/employee-images/michael-carr.png";
 
 
 const people = [
@@ -12,7 +13,7 @@ const people = [
         phone: "561-271-0399",
         email: "MIKE@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            michaelPic,
         bio: "Mike is the proud owner of Palm Partners and has dedicated over 10 years to the property claims industry. He's handled large losses, including high-value properties and commercial claims. Throughout his career, Mike has also grown other public adjusting firms, taking them from just 2 adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong Relationships with insurance companies. His name is well0known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.",
     },
     {
