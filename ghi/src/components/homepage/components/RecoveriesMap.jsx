@@ -177,19 +177,19 @@ const RecoveriesMap = () => {
 
     // Define bounds for Florida
     const floridaBounds = [
-        [30.45, -87.2],
+        [30.00, -89.2],
         [25.75, -80.2],
     ];
 
     return (
         <div className="relative">
-            <div className="top-0 left-0 right-0 z-20 p-4 bg-opacity-75 bg-white text-center text-xl font-bold">
+            <div className="mb-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
                 30,000+ Recoveries Made Across Florida
             </div>
             <MapContainer
                 bounds={floridaBounds}
                 style={{ height: "50vh", width: "100%" }}
-                zoomControl={false}
+                zoomControl={true}
             >
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                 {recoveries.map((recovery) => (
