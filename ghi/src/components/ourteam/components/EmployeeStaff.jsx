@@ -10,6 +10,7 @@ import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
 import howardPic from "../../../assets/employee-images/howard-sanders.png";
 import spencerPic from "../../../assets/employee-images/spencer-lee.png";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
+import taylorPic from "../../../assets/employee-images/taylor-banks.png";
 
 
 const people = [
@@ -46,7 +47,7 @@ const people = [
         phone: "561-789-5179",
         email: "TAYLOR@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            taylorPic,
         bio: "Taylor is one of our most experienced adjusters with settling hundreds of claims resulting in millions of dollars recovered for homeowners. Whether it is a plumbing, fire, or hurricane claim. He has the knowledge to help you get what you deserve. He specializes in commercial claims and large losses. With a background in Finance and a Bachelor's degree from the University of Central Florida, Taylor Joined our team to help make a difference for our clients.",
     },
     {
