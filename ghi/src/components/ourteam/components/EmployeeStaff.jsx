@@ -4,6 +4,7 @@ import fletcherPic from "../../../assets/employee-images/fletcher-liu.png";
 import reynelPic from "../../../assets/employee-images/reynel-lavandera.png";
 import michaelMPic from "../../../assets/employee-images/michael-mastromarino.png";
 import michaelPic from "../../../assets/employee-images/michael-carr.png";
+import davidPic from "../../../assets/employee-images/david-milchan.png";
 
 
 const people = [
@@ -31,7 +32,7 @@ const people = [
         phone: "954-415-8227",
         email: "DAVID@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            davidPic,
         bio: "David is a South Florida native with a background in Territory Management and Claims Processing. He is one of our Senior Adjusters and 2023 Marks 6 years as a full time licensed Public Adjuster. David has handled small and large scale commercial and residential claims across the state, from Pensacola to Miami and everywhere in between. He handles damages from hurricane, windstorm, hail, water, mold, flood, and fre claims. With an obsession to do the job right and address all areas of the policy and property. David takes pride in his settlement results and leaving clients satisfied. Insurance companies don't disrespect policyholders when David is around!",
     },
     {
