@@ -8,6 +8,7 @@ import davidPic from "../../../assets/employee-images/david-milchan.png";
 import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
 import howardPic from "../../../assets/employee-images/howard-sanders.png";
+import spencerPic from "../../../assets/employee-images/spencer-lee.png";
 
 
 const people = [
@@ -71,7 +72,7 @@ const people = [
         phone: "954-543-2895",
         email: "SPENCER@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            spencerPic,
         bio: "As a former Director of operations for Castle Group, Spencer brings a unique property management expertise to the commercial claims division. He has a proven track record for assisting community associations and property managers with a navigating the complex claims process from start to finish. Spencer values customer service and specializes in managers, Board of Directors, and residential homeowners with storm, roof, and plumbing damage.",
     },
     {
