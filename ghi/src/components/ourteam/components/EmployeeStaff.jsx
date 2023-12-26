@@ -9,6 +9,7 @@ import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
 import howardPic from "../../../assets/employee-images/howard-sanders.png";
 import spencerPic from "../../../assets/employee-images/spencer-lee.png";
+import frankPic from "../../../assets/employee-images/frank-stallone.png";
 
 
 const people = [
@@ -99,7 +100,7 @@ const people = [
         phone: "561-722-9335",
         email: "FRANK@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            frankPic,
         bio: "Frank, a Florida native and a distinguished UCF alumnus, leverages his rich background in public adjusting and his family's legacy in the pool construction sector to deliver unparalleled service to our clients. He has adeptly handled and settled some of the largest, often six-figure, residential and commercial claims related to hurricanes, fires, mold, plumbing, and wind. Frank's extensive knowledge and unwavering commitment have established him as a trusted advocate, securing maximal settlements and alleviating the stress of navigating complex claims for our clients.",
     },
     {
