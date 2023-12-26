@@ -1,5 +1,7 @@
 import brandonPic from "../../../assets/employee-images/brandon-vietti.png";
 import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
+import fletcherPic from "../../../assets/employee-images/fletcher-liu.png";
+
 
 const people = [
     {
@@ -116,7 +118,7 @@ const people = [
         phone: "954-461-9369",
         email: "FLETCHER@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            fletcherPic,
         bio: "Fletcher is a distinguished Public Adjuster who has notability specialized in managing claims on the West Coast, particularly those arising from the devastation of Hurricane Ian. With a deep commitment to aiding hundreds of affected homeowners, he has been instrumental in navigating the complexities of insurance claims, ensuring rightful compensation and aiding in swift recovery. His extensive experience and unwavering advocacy for policyholders make him a trusted asset, providing unparalleled guidance and support to those seeking to rebuild their lives post-disaster.",
     },
     {
