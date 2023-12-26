@@ -11,6 +11,7 @@ import howardPic from "../../../assets/employee-images/howard-sanders.png";
 import spencerPic from "../../../assets/employee-images/spencer-lee.png";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
 import taylorPic from "../../../assets/employee-images/taylor-banks.png";
+import treyPic from "../../../assets/employee-images/trey-steinberger.png";
 
 
 const people = [
@@ -155,7 +156,7 @@ const people = [
         phone: "561-576-6077",
         email: "TREY@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            treyPic,
         bio: "Trey comes from a lineage of excellence in construction, with his father being a renowned high-end builder overseeing projects valued at over $10 million. While Trey proudly serves as a firefighter, he also possesses an innate understanding of the construction industry, having spent significant time working alongside his family on upscale projects. His expertise extends to managing property claims for the firm, where he boasts one of the swiftest settlement turnaround times. Trey's proficiency encompasses both residential and commercial claims, making him an invaluable asset to the team.",
     },
     {
