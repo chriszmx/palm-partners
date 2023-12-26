@@ -5,6 +5,7 @@ import reynelPic from "../../../assets/employee-images/reynel-lavandera.png";
 import michaelMPic from "../../../assets/employee-images/michael-mastromarino.png";
 import michaelPic from "../../../assets/employee-images/michael-carr.png";
 import davidPic from "../../../assets/employee-images/david-milchan.png";
+import seanPic from "../../../assets/employee-images/sean-odell.png";
 
 
 const people = [
@@ -77,7 +78,7 @@ const people = [
         phone: "561-289-6330",
         email: "SEAN@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            seanPic,
         bio: "Sean has worked as a public Adjuster since 2017 in both Florida and Texas. He is certified in Xactimate for damage analysis/estimation and holds an FAA license for UAV flight operations to perform complex roof inspections utilizing a drone for high resolution 4k images. Additionally, he specializes in using Matterport technology to generate highly detailed spatial 3D renders of homes and businesses to provide a detailed and accurate estimate of damages. Sean has utilized these tools to achieve the best settlement possible even during litigation in both State and Federal courts.",
     },
     {
