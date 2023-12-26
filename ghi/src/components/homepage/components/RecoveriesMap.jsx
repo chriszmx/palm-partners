@@ -15,7 +15,7 @@ L.Icon.Default.mergeOptions({
     iconUrl: iconUrl,
     shadowUrl: shadowUrl,
 });
-
+//leaflet
 const RecoveriesMap = () => {
     const [recoveries, setRecoveries] = useState([
         {
