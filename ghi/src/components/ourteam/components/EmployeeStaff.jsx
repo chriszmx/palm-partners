@@ -1,3 +1,5 @@
+import brandonPic from "../../../assets/employee-images/brandon-vietti.png";
+
 const people = [
     {
         name: "Michael Reed Carr",
@@ -50,7 +52,7 @@ const people = [
         phone: "561-441-9742",
         email: "BRANDON@PALMPTS.COM",
         imageUrl:
-            "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+            brandonPic,
         bio: "Brandon is an experienced state licensed public adjuster who has been with our company since its inception. A graduate from University of Florida, and with a background in home renovations/restorations and a lifelong career of establishing and building relationships with clients. Brandon decided to pursue a career in public adjusting after learning about the industry through a good friend. With his forward thinking, problem solving ability, knowledge, and commitment to making sure clients are made whole through the stressful claims process, Brandon has been able to help residential and commercial clients recover millions of dollars from the insurance companies after their loss.",
     },
     {
