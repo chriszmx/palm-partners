@@ -25,68 +25,68 @@ const claims = [
         name: "Hurricane",
         description:
             "Expert guidance through the complexities of hurricane-related claims",
-        href: "#",
+        href: "/types-of-claims/hurricane",
         icon: CloudIcon,
     },
     {
         name: "Fire",
         description:
             "Comprehensive assistance for fire damage claims. We’ll help you get back on your feet.",
-        href: "#",
+        href: "/types-of-claims/fire",
         icon: FireIcon,
     },
     {
         name: "Water / Plumbing",
         description:
             "Navigating water damage claims with precision and expertise.",
-        href: "#",
+        href: "/types-of-claims/water",
         icon: BeakerIcon,
     },
     {
         name: "Sinkhole",
         description:
             "Dedicated support for dealing with unexpected sinkhole damages.",
-        href: "#",
+        href: "/types-of-claims/sinkhole",
         icon: ArrowTrendingDownIcon,
     },
     {
         name: "Mold",
         description:
             "Navigating mold damage claims with precision and expertise.",
-        href: "#",
+        href: "/types-of-claims/mold",
         icon: BeakerIcon,
     },
     {
         name: "Collapse",
         description:
             "Assisting with claims for structural collapses with attention to detail and care.",
-        href: "#",
+        href: "/types-of-claims/collapse",
         icon: BanknotesIcon,
     },
     {
         name: "Vandalism / Theft",
         description:
             "Securing your rights in vandalism and theft incidents with our expert guidance.",
-        href: "#",
+        href: "/types-of-claims/vandalism",
         icon: ShieldExclamationIcon,
     },
     {
         name: "Loss of Business Income",
         description: "Ensuring fair compensation for business income losses.",
-        href: "#",
+        href: "/types-of-claims/loss-of-business",
         icon: CurrencyDollarIcon,
     },
     {
         name: "Wind / Tornado",
         description: "Expertise in handling wind and tornado damage claims.",
-        href: "#",
+        href: "/types-of-claims/wind-tornado",
         icon: ArrowPathIcon,
     },
     {
         name: "Hail / Wind Driven Rain",
         description:
             "Effective representation for hail and wind driven rain damage claims.",
-        href: "#",
+        href: "/types-of-claims/hail-wind-driven-rain",
         icon: CloudIcon,
     },
 ];
