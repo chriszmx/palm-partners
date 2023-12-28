@@ -96,95 +96,95 @@ const services = [
         name: "Palm Partners: Comprehensive Claims Management",
         description:
             "At Palm Partners, we offer a meticulous range of services to thoroughly document claims on behalf of our clients.",
-        href: "#",
+        href: "/services/comprehensive-claims-management",
         icon: CloudIcon,
     },
     {
         name: "Matterport 4D Home Imaging",
         description:
             "Capturing your property with cutting-edge technology for precision and clarity. Detailed Itemized Estimating: Ensuring every detail of the claim is accounted for.",
-        href: "#",
+        href: "/services/matterport",
         icon: FireIcon,
     },
     {
         name: "Sketch & Home Dimensions",
         description:
             "Precise blueprints and measurements to validate your claim.",
-        href: "#",
+        href: "/services/sketch-and-home-dimensions",
         icon: BeakerIcon,
     },
     {
         name: "Photographic Documentation",
         description: "Comprehensive photo evidence to support your case.",
-        href: "#",
+        href: "/services/photographic-documentation",
         icon: ArrowTrendingDownIcon,
     },
     {
         name: "Thermal Imaging",
         description:
             "Detecting unseen problems and ensuring no issue goes unnoticed.",
-        href: "#",
+        href: "/services/thermal-imaging",
         icon: BeakerIcon,
     },
     {
         name: "Moisture Reading",
         description:
             "Identifying potential water damage areas for comprehensive coverage.",
-        href: "#",
+        href: "/services/moisture-reading",
         icon: ArrowTrendingDownIcon,
     },
     {
         name: "Detailed Roof Inspections",
         description: "Scrutinizing the most vulnerable parts of your property.",
-        href: "#",
+        href: "/services/detailed-roof-inspections",
         icon: BanknotesIcon,
     },
     {
         name: "Drone Inspection",
         description:
             "Utilizing advanced tech to get a bird's eye view of potential damage.",
-        href: "#",
+        href: "/services/drone-inspection",
         icon: ShieldExclamationIcon,
     },
     {
-        name: "In-Dept Policy Review",
+        name: "In-Depth Policy Review",
         description:
             "Ensuring you are fully aware and benefiting from your policy's offerings.",
-        href: "#",
+        href: "/services/in-depth-policy-review",
         icon: CurrencyDollarIcon,
     },
     {
         name: "24/7 Call Service",
         description:
             "We're available anytime your need assistance or have concerns.",
-        href: "#",
+        href: "/services/call-service",
         icon: ArrowPathIcon,
     },
     {
         name: "Personal Claims Specialist",
         description:
             "Dedicated experts to handle your claim with utmost priority.",
-        href: "#",
+        href: "/services/personal-claims-specialist",
         icon: CloudIcon,
     },
     {
         name: "Online Portal Access",
         description:
             "Stay updated with real-time information and progress on your claim.",
-        href: "#",
+        href: "/services/online-portal-access",
         icon: CloudIcon,
     },
     {
         name: "Appraisals",
         description: "Expert evaluations for accurate claim estimates.",
-        href: "#",
+        href: "/services/appraisals",
         icon: CloudIcon,
     },
     {
         name: "Mediation",
         description:
             "Facilitating discussions to ensure you receive the rightful compensation.",
-        href: "#",
+        href: "/services/mediation",
         icon: CloudIcon,
     },
 ];
