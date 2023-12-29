@@ -1,4 +1,8 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import {
+  CloudIcon,
+  ShieldCheckIcon,
+  DevicePhoneMobileIcon,
+} from '@heroicons/react/20/solid';
 
 export default function MoistureReading() {
   return (
@@ -7,63 +11,49 @@ export default function MoistureReading() {
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
             <img
-              className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
-              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=2560&h=3413&&q=80"
-              alt=""
+              className="absolute inset-0 h-full w-full object-cover object-center"
+              src="https://images.unsplash.com/photo-1593081849794-ff9b66f8cb4e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="High-tech moisture detection equipment"
             />
           </div>
         </div>
         <div className="px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
-            <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
-            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Moisture Reading</h1>
+            <p className="text-base font-semibold leading-7 text-indigo-600">Precision Detection</p>
+            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Moisture Reading Services</h1>
             <p className="mt-6 text-xl leading-8 text-gray-700">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-              aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-              egestas fringilla sapien.
+              Unseen water damage can lead to significant structural issues and mold growth, compromising the integrity of your property. At Palm Partners, we utilize cutting-edge technology to perform comprehensive moisture readings, ensuring that every potential problem area is meticulously identified and documented for your insurance claim.
             </p>
             <div className="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                semper sed amet vitae sed turpis id.
+                Our Florida-based team of public adjusters is equipped with the latest moisture detection equipment, enabling us to uncover hidden water damage that often goes unnoticed. Our detailed assessments form the foundation of a robust claim, maximizing your settlement and safeguarding your property's value.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <CloudIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-gray-900">Advanced Technology.</strong> With our sophisticated moisture meters and thermal imaging cameras, we can detect water intrusion with pinpoint accuracy.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <ShieldCheckIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">Comprehensive Protection.</strong> Our expertise extends beyond detection; we advocate for your full entitlement under your insurance policy.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <DevicePhoneMobileIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-gray-900">Real-Time Reporting.</strong> We provide immediate, detailed reports that are essential for timely insurance claims and remediation processes.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                Don't let hidden moisture devalue your property and lead to costly future repairs. Trust Palm Partners to provide a thorough moisture reading service that ensures your claim covers all necessary repairs for a fully restored property.
               </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Expertise You Can Rely On</h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+                When you partner with Palm Partners, you're not just hiring a public adjuster; you're securing a dedicated ally in your corner. Our commitment to excellence and client advocacy sets us apart, making us the premier choice for Floridians facing property insurance claims.
               </p>
             </div>
           </div>
