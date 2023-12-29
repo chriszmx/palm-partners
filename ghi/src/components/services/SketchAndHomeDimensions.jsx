@@ -1,69 +1,55 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { ScaleIcon, DocumentTextIcon, HomeIcon } from '@heroicons/react/20/solid'
 
 export default function SketchAndHomeDimensions() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
-        <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
+        <div className="lg:flex lg:w-1/2 lg:shrink-0 lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
             <img
-              className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
-              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=2560&h=3413&&q=80"
-              alt=""
+              className="absolute inset-0 h-full w-full object-cover"
+              src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+              alt="Blueprints and measuring tools"
             />
           </div>
         </div>
         <div className="px-6 lg:contents">
-          <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
-            <p className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
+          <div className="mx-auto max-w-2xl sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
+            <p className="text-base font-semibold leading-7 text-indigo-600">Precision in Every Measurement</p>
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Sketch and Home Dimensions</h1>
             <p className="mt-6 text-xl leading-8 text-gray-700">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-              aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-              egestas fringilla sapien.
+              When it comes to insurance claims, precise documentation of your property's layout and structure is critical. Our Sketch and Home Dimensions service provides accurate blueprints and detailed measurements, ensuring that every aspect of your claim is substantiated with professional accuracy.
             </p>
             <div className="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-                vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-                erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
-                semper sed amet vitae sed turpis id.
+                Our team of experienced public adjusters utilizes the latest technology to create comprehensive sketches and diagrams of your home. This meticulous approach to documenting your property can make a significant difference in the outcome of your claim.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <ScaleIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Push to deploy.</strong> Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-                    blanditiis ratione.
+                    <strong className="font-semibold text-gray-900">Accurate Scaling.</strong> Our precise scaling techniques ensure that every inch of your property is accounted for, leaving no detail overlooked.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <DocumentTextIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">SSL certificates.</strong> Anim aute id magna aliqua
-                    ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                    <strong className="font-semibold text-gray-900">Detailed Documentation.</strong> We provide thorough documentation to support your claim, from floor plans to elevation drawings.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <HomeIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
-                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                    <strong className="font-semibold text-gray-900">Comprehensive Analysis.</strong> Our team conducts a full analysis of your home's dimensions to ensure that your claim reflects the true extent of your property's value.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+                At Palm Partners, we understand that your property is more than just an asset—it's a part of your life. That's why we're dedicated to providing you with the highest level of service and support throughout the claims process. Let us handle the complexities of your claim, so you can focus on what matters most.
               </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">No server? No problem.</h2>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Expertise You Can Trust</h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-                Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed
-                tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+                With Palm Partners, you're partnering with a team of public adjusters who are committed to protecting your interests. Our expertise in Sketch and Home Dimensions is just one aspect of our dedication to ensuring that you receive the full compensation you deserve. Trust us to be by your side every step of the way.
               </p>
             </div>
           </div>
