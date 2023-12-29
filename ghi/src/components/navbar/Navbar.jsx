@@ -17,6 +17,19 @@ import {
     PhoneIcon,
     PlayCircleIcon,
     RectangleGroupIcon,
+    BuildingOfficeIcon,
+    PhotoIcon,
+    PencilSquareIcon,
+    CameraIcon,
+    VideoCameraIcon,
+    HomeModernIcon,
+    DocumentIcon,
+    PaperAirplaneIcon,
+    DevicePhoneMobileIcon,
+    UserGroupIcon,
+    ComputerDesktopIcon,
+    ClipboardDocumentCheckIcon,
+    DocumentCheckIcon,
 } from "@heroicons/react/20/solid";
 import transparentLogoCropped from "../../assets/Palm-Partners-transparent-cropped.png";
 
@@ -97,95 +110,95 @@ const services = [
         description:
             "At Palm Partners, we offer a meticulous range of services to thoroughly document claims on behalf of our clients.",
         href: "/services/comprehensive-claims-management",
-        icon: CloudIcon,
+        icon: BuildingOfficeIcon,
     },
     {
         name: "Matterport 4D Home Imaging",
         description:
             "Capturing your property with cutting-edge technology for precision and clarity. Detailed Itemized Estimating: Ensuring every detail of the claim is accounted for.",
         href: "/services/matterport",
-        icon: FireIcon,
+        icon: PhotoIcon,
     },
     {
         name: "Sketch & Home Dimensions",
         description:
             "Precise blueprints and measurements to validate your claim.",
         href: "/services/sketch-and-home-dimensions",
-        icon: BeakerIcon,
+        icon: PencilSquareIcon,
     },
     {
         name: "Photographic Documentation",
         description: "Comprehensive photo evidence to support your case.",
         href: "/services/photographic-documentation",
-        icon: ArrowTrendingDownIcon,
+        icon: CameraIcon,
     },
     {
         name: "Thermal Imaging",
         description:
             "Detecting unseen problems and ensuring no issue goes unnoticed.",
         href: "/services/thermal-imaging",
-        icon: BeakerIcon,
+        icon: VideoCameraIcon,
     },
     {
         name: "Moisture Reading",
         description:
             "Identifying potential water damage areas for comprehensive coverage.",
         href: "/services/moisture-reading",
-        icon: ArrowTrendingDownIcon,
+        icon: CloudIcon,
     },
     {
         name: "Detailed Roof Inspections",
         description: "Scrutinizing the most vulnerable parts of your property.",
         href: "/services/detailed-roof-inspections",
-        icon: BanknotesIcon,
+        icon: HomeModernIcon,
     },
     {
         name: "Drone Inspection",
         description:
             "Utilizing advanced tech to get a bird's eye view of potential damage.",
         href: "/services/drone-inspection",
-        icon: ShieldExclamationIcon,
+        icon: PaperAirplaneIcon,
     },
     {
         name: "In-Depth Policy Review",
         description:
             "Ensuring you are fully aware and benefiting from your policy's offerings.",
         href: "/services/in-depth-policy-review",
-        icon: CurrencyDollarIcon,
+        icon: DocumentIcon,
     },
     {
         name: "24/7 Call Service",
         description:
             "We're available anytime your need assistance or have concerns.",
         href: "/services/call-service",
-        icon: ArrowPathIcon,
+        icon: DevicePhoneMobileIcon,
     },
     {
         name: "Personal Claims Specialist",
         description:
             "Dedicated experts to handle your claim with utmost priority.",
         href: "/services/personal-claims-specialist",
-        icon: CloudIcon,
+        icon: UserGroupIcon,
     },
     {
         name: "Online Portal Access",
         description:
             "Stay updated with real-time information and progress on your claim.",
         href: "/services/online-portal-access",
-        icon: CloudIcon,
+        icon: ComputerDesktopIcon,
     },
     {
         name: "Appraisals",
         description: "Expert evaluations for accurate claim estimates.",
         href: "/services/appraisals",
-        icon: CloudIcon,
+        icon: ClipboardDocumentCheckIcon,
     },
     {
         name: "Mediation",
         description:
             "Facilitating discussions to ensure you receive the rightful compensation.",
         href: "/services/mediation",
-        icon: CloudIcon,
+        icon: DocumentCheckIcon,
     },
 ];
 
