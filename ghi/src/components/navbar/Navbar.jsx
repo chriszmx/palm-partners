@@ -204,7 +204,7 @@ const services = [
 
 const callsToAction = [
     { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-    { name: "Contact Us", href: "contact-us", icon: PhoneIcon },
+    { name: "Contact Us", href: "/contact-us", icon: PhoneIcon },
     { name: "View all products", href: "#", icon: RectangleGroupIcon },
 ];
 
@@ -389,7 +389,7 @@ export default function Example() {
                         Our Team
                     </a>
                     <a
-                        href="contact-us"
+                        href="/contact-us"
                         className="text-sm font-semibold leading-6 text-gray-900"
                     >
                         Contact Us
@@ -512,7 +512,7 @@ export default function Example() {
                                     Our Team
                                 </a>
                                 <a
-                                    href="contact-us"
+                                    href="/contact-us"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Contact Us

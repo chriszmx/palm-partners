@@ -39,8 +39,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="contact-us" element={<ContactUs />} />
-        <Route path="our-team" element={<OurTeam />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/our-team" element={<OurTeam />} />
 
         <Route path="types-of-claims/hurricane" element={<Hurricane />} />
         <Route path="types-of-claims/fire" element={<Fire />} />
