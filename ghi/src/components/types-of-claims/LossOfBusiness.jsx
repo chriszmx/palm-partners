@@ -56,6 +56,18 @@ export default function LossOfBusiness() {
                 At Palm Partners, we understand that your business is more than just a livelihood—it's a legacy. That's why we commit to delivering results that not only meet but exceed your expectations. Choose us, and let's secure your business's future together.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/vandalism" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Vandalism & Theft
+                </a>
+                <a href="/types-of-claims/wind-tornado" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Wind & Tornado →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

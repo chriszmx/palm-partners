@@ -52,6 +52,18 @@ export default function SinkholeClaim() {
                 Don't let sinkhole damage undermine your financial stability. Trust Palm Partners to deliver the professionalism, dedication, and results you need during this critical time.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/water" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Water / Plumbing
+                </a>
+                <a href="/types-of-claims/mold" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Mold →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

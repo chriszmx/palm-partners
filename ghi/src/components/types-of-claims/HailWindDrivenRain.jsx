@@ -52,6 +52,18 @@ export default function HailWindDrivenRain() {
                 With Palm Partners Public Adjusters, you're not just a claim number; you're a valued client. We stand by your side, providing personalized service, clear communication, and unwavering support. Choose us and experience the difference that a dedicated public adjuster makes.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/wind-tornado" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Wind & Tornado
+                </a>
+                <a href="/services/comprehensive-claims-management" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Unmatched Claims Management →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

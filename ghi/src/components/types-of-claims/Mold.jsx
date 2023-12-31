@@ -52,6 +52,18 @@ export default function MoldClaim() {
                 With years of experience in the Florida insurance landscape, Palm Partners has the knowledge and resources to handle your mold claim with the utmost professionalism. Let us take the burden off your shoulders, so you can focus on what matters most—your recovery and well-being.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/sinkhole" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Sinkhole
+                </a>
+                <a href="/types-of-claims/collapse" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Collapse →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

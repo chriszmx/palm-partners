@@ -52,6 +52,18 @@ export default function WindTornado() {
                 In the wake of a wind or tornado event, you deserve a partner who will fight for your interests without compromise. Choose Palm Partners and experience the difference that professional representation can make in your claim outcome.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/loss-of-business" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Loss of Business
+                </a>
+                <a href="/types-of-claims/hail-wind-driven-rain" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Hail & Wind-Driven Rain →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

@@ -52,6 +52,18 @@ export default function Vandalism() {
                 Trust Palm Partners to be the expert ally in your corner. Just as you wouldn't face legal challenges without a lawyer, don't confront vandalism and theft claims alone. Partner with us for expert guidance and the fair settlement you're entitled to.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/collapse" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Collapse
+                </a>
+                <a href="/types-of-claims/loss-of-business" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Loss of Business →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

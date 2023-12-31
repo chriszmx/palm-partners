@@ -56,6 +56,18 @@ export default function PlumbingServices() {
                 Choose our experienced team for dependable plumbing services that you can count on. We're dedicated to providing you with efficient, long-lasting solutions and the peace of mind that comes from knowing your plumbing is in expert hands.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/fire" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Fire
+                </a>
+                <a href="/types-of-claims/sinkhole" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Sinkhole →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

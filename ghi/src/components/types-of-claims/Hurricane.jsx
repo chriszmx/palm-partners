@@ -52,6 +52,19 @@ export default function Hurricane() {
                 As a Florida-based company, we have firsthand experience with the destructive power of hurricanes. When you choose Palm Partners Public Adjusters, you're not just hiring an adjuster; you're gaining a dedicated partner who will fight for your rights, navigate the complexities of your claim, and ensure you receive the full and fair compensation you deserve. Trust us to be your advocate in the aftermath of a hurricane.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/mediation" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Mediation
+                </a>
+                <a href="/types-of-claims/fire" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Fire →
+                </a>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>
