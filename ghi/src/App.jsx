@@ -30,6 +30,7 @@ import Appraisals from './components/services/Appraisals';
 import Mediation from './components/services/Mediation';
 import Privacy from './components/legal/Privacy';
 import Terms from './components/legal/Terms';
+import Claim from './components/legal/Claim';
 
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
 
         <Route path="privacy" element={<Privacy />} />
         <Route path="terms" element={<Terms />} />
+        <Route path="claim" element={<Claim />} />
       </Routes>
       <Footer />
     </Router>

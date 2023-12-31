@@ -8,7 +8,7 @@ const navigation = {
     { name: 'Contact Us', href: 'contact-us' },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
+    { name: 'Claim', href: '/claim' },
     { name: 'Privacy', href: '/privacy' },
     { name: 'Terms', href: '/terms' },
   ],
