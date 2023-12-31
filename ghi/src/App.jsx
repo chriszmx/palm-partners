@@ -28,6 +28,7 @@ import PersonalClaimsSpecialist from './components/services/PersonalClaimsSpecia
 import OnlinePortalAccess from './components/services/OnlinePortalAccess';
 import Appraisals from './components/services/Appraisals';
 import Mediation from './components/services/Mediation';
+import Privacy from './components/legal/Privacy';
 
 
 function App() {
@@ -64,6 +65,8 @@ function App() {
         <Route path="services/online-portal-access" element={<OnlinePortalAccess />} />
         <Route path="services/appraisals" element={<Appraisals />} />
         <Route path="services/mediation" element={<Mediation />} />
+
+        <Route path="privacy" element={<Privacy />} />
       </Routes>
       <Footer />
     </Router>

@@ -1,5 +1,6 @@
 // import { PhoneIcon, MailIcon,  } from '@heroicons/react/24/outline';
 import transparentLogoCropped from '../../assets/Palm-Partners-white-transparent-cropped.png';
+
 const navigation = {
   company: [
     { name: 'About', href: '#' },
@@ -8,7 +9,7 @@ const navigation = {
   ],
   legal: [
     { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
+    { name: 'Privacy', href: '/privacy' },
     { name: 'Terms', href: '#' },
   ],
   social: [
