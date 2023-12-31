@@ -222,7 +222,7 @@ export default function Example() {
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
-                    <a href="/" className="-m-1.5 p-1.5">
+                    <a href="/" className="-m-1.5">
                         <span className="sr-only">Palm Partners</span>
                         <img
                             className="h-12 w-auto"
@@ -376,12 +376,12 @@ export default function Example() {
                         </Transition>
                     </Popover>
 
-                    <a
+                    {/* <a
                         href="#"
                         className="text-sm font-semibold leading-6 text-gray-900"
                     >
                         About Us
-                    </a>
+                    </a> */}
                     <a
                         href="/our-team"
                         className="text-sm font-semibold leading-6 text-gray-900"
@@ -499,12 +499,12 @@ export default function Example() {
                                         </>
                                     )}
                                 </Disclosure>
-                                <a
+                                {/* <a
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     About Us
-                                </a>
+                                </a> */}
                                 <a
                                     href="/our-team"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
