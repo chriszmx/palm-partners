@@ -2,7 +2,7 @@ import React from "react";
 import VideoHeader from "./VideoHeader";
 import ChoosePalmPartners from "./components/ChoosePalmPartners";
 import PalmPartnersIntro from "./components/PalmPartnersIntro";
-import OurServices from "./components/OurServices";
+import TypesOfClaims from "./components/TypesOfClaims";
 import RecoveriesMap from "./components/RecoveriesMap";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
             <VideoHeader />
             <ChoosePalmPartners />
             <PalmPartnersIntro />
-            <OurServices />
+            <TypesOfClaims />
             <RecoveriesMap />
         </div>
     );

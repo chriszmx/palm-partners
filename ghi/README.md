@@ -1,1 +1,0 @@
-total hours - 6
