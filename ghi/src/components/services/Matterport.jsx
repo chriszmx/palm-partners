@@ -52,6 +52,18 @@ export default function Matterport() {
                 Choose Palm Partners and experience the difference that professional public adjusting and advanced 4D home imaging can make. Our commitment to excellence is your key to a successful claim resolution in Florida.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/comprehensive-claims-management" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Unmatched Claims Management
+                </a>
+                <a href="/services/sketch-and-home-dimensions" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Sketch & Home Dimensions →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

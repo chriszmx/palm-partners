@@ -52,6 +52,18 @@ export default function ComprehensiveClaimsManagement() {
                 Choose Palm Partners for a partner who brings unparalleled expertise to the table. Whether it's a natural disaster, property damage, or any other insurable loss, we are here to ensure that your interests are fully represented and that your peace of mind is restored.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/types-of-claims/hail-wind-driven-rain" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Hail & Wind Driven Rain
+                </a>
+                <a href="/services/matterport" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Matterport 4D Home Imaging →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

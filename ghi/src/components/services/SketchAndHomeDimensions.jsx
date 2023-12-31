@@ -52,6 +52,18 @@ export default function SketchAndHomeDimensions() {
                 With Palm Partners, you're partnering with a team of public adjusters who are committed to protecting your interests. Our expertise in Sketch and Home Dimensions is just one aspect of our dedication to ensuring that you receive the full compensation you deserve. Trust us to be by your side every step of the way.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/matterport" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← 4D Home Imaging
+                </a>
+                <a href="/services/photographic-documentation" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Comprehensive Photographic Documentation →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

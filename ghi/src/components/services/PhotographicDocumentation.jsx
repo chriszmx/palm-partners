@@ -52,6 +52,18 @@ export default function PhotographicDocumentation() {
                 With Palm Partners, you're not just a claim number; you're part of our family. We navigate the complexities of insurance claims with expertise and care, so you don't have to. Trust us to be your partner in this journey, capturing every detail and advocating for your maximum settlement.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/sketch-and-home-dimensions" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Sketch & Home Dimensions
+                </a>
+                <a href="/services/thermal-imaging" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Thermal Imaging →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

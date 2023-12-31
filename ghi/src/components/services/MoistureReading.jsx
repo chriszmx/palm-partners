@@ -56,6 +56,18 @@ export default function MoistureReading() {
                 When you partner with Palm Partners, you're not just hiring a public adjuster; you're securing a dedicated ally in your corner. Our commitment to excellence and client advocacy sets us apart, making us the premier choice for Floridians facing property insurance claims.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/thermal-imaging" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Thermal Imaging
+                </a>
+                <a href="/services/detailed-roof-inspections" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Detailed Roof Inspection →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

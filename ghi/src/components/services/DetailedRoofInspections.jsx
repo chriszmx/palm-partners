@@ -56,6 +56,18 @@ export default function DetailedRoofInspections() {
                 At Palm Partners, we're more than just public adjusters; we're your advocates in property protection. Trust us to deliver a meticulous roof inspection that leaves no shingle unturned. Contact us now to secure your home's defense against the Florida skies.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/moisture-reading" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Moisture Reading
+                </a>
+                <a href="/services/drone-inspection" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Drone Inspection →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

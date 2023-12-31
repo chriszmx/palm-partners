@@ -56,6 +56,18 @@ export default function ThermalImaging() {
                 Don't let unseen issues diminish your claim's potential. Trust Palm Partners' thermal imaging expertise to illuminate the full scope of damage and strengthen your position. Choose the experts who stand with you every step of the way.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/photographic-documentation" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Photographic Documentation
+                </a>
+                <a href="/services/moisture-reading" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Moisture Reading →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

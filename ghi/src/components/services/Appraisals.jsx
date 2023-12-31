@@ -56,6 +56,18 @@ export default function Appraisals() {
                 Don't navigate the challenging waters of insurance claims alone. Our public adjusters are your strategic partners, committed to achieving a fair and just outcome for your appraisal. With Palm Partners, you gain more than a service; you gain a steadfast ally.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/online-portal-access" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Online Portal
+                </a>
+                <a href="/services/mediation" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Mediation →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

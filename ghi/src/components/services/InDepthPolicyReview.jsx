@@ -52,6 +52,18 @@ export default function InDepthPolicyReview() {
                 With Palm Partners, you're not just reading lines of text; you're uncovering the full potential of your policy. Let us navigate the complexities and advocate for your maximum benefit.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/drone-inspection" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Drone Inspection
+                </a>
+                <a href="/services/call-service" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  24/7 Call Service →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

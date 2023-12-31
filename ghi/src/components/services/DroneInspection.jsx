@@ -52,6 +52,18 @@ export default function DroneInspection() {
                 Partner with us and experience the peace of mind that comes with knowing your claim is in expert hands. Our drone technology is just one of the many tools we use to ensure you receive the maximum compensation you deserve. Let's navigate your insurance claim together, with precision from above and expertise on the ground.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/detailed-roof-inspections" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Roof Inspection
+                </a>
+                <a href="/services/in-depth-policy-review" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Policy Review →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

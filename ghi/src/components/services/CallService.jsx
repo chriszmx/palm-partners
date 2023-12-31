@@ -52,6 +52,18 @@ export default function CallService() {
                 Experience the difference with Palm Partners' 24/7 call service. We're more than just adjusters; we're your advocates, negotiators, and partners in securing your financial recovery. Don't face your insurance claims alone—let us be your guide every step of the way.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/in-depth-policy-review" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Policy Review
+                </a>
+                <a href="/services/personal-claims-specialist" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Personal Claims Specialist →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

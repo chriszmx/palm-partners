@@ -52,6 +52,18 @@ export default function Mediation() {
                 We understand the value of your property and the importance of a fair claim settlement. Trust Palm Partners to be your ally in navigating the mediation process. Our commitment to excellence makes us the ideal choice for your public adjusting needs.
               </p>
             </div>
+
+            <div className="mt-10 text-center">
+              <div className="inline-flex rounded-md shadow-sm" role="group">
+                <a href="/services/appraisals" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-l-lg border border-r-0 border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  ← Appraisals
+                </a>
+                <a href="/types-of-claims/hurricane" className="py-2 px-4 text-sm font-medium text-indigo-600 bg-white rounded-r-lg border border-indigo-200 hover:bg-indigo-50 hover:text-indigo-700">
+                  Hurricane →
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
