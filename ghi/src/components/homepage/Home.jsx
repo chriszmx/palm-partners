@@ -6,6 +6,7 @@ import TypesOfClaims from "./components/TypesOfClaims";
 import RecoveriesMap from "./components/RecoveriesMap";
 import FAQ from "./components/FAQ";
 import ContactToday from "./components/ContactToday";
+import Reviews from "./components/Reviews";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <ChoosePalmPartners />
             <PalmPartnersIntro />
             <TypesOfClaims />
+            <Reviews />
             <RecoveriesMap />
             <FAQ />
             <ContactToday />
