@@ -26,11 +26,21 @@ import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera.jpg";
 const people = [
     {
         name: "Michael Reed Carr",
+        position: "CEO",
         role: "W233207",
         phone: "561-271-0399",
         email: "MIKE@PALMPTS.COM",
         imageUrl: michaelPic,
         bio: "Mike is the proud owner of Palm Partners and has dedicated over 10 years to the property claims industry. He's handled large losses, including high-value properties and commercial claims. Throughout his career, Mike has also grown other public adjusting firms, taking them from just 2 adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong Relationships with insurance companies. His name is well0known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.",
+    },
+    {
+        name: "Wyatt Hoke",
+        position: 'Vice President',
+        role: "W376889",
+        phone: "561-699-5490",
+        email: "WYATT@PALMPTS.COM",
+        imageUrl: wyattPic,
+        bio: "Wyatt is a seasoned state Public Adjuster, bringing over 7 years of industry experience, specializing in managing some of the largest claims in South Florida. A Finance graduate from FAU, he has adeptly represented and adjusted a myriad of both residential and commercial claims, focusing on delivering outstanding results for every client. Wyatt is deeply committed to alleviating the burden his clients face in trying times, exploring every viable avenue of recovery to ensure maximum compensation. This allows his clients the peace of mind to concentrate on rebuilding and progressing. His dedication and unparalleled drive to advocate on behalf of his clients set him apart in the field, exemplifying a relentless pursuit for their well-being and satisfaction.",
     },
     {
         name: "Diego Sena",
@@ -79,14 +89,6 @@ const people = [
         email: "REY@PALMPTS.COM",
         imageUrl: reyLavanderaPic,
         bio: "With over 5 years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential loses. Rey's expertise in plumbing and roof claims has consistently led to successful settlements for his clients. Within our company, he manages a large number of claims, often because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in ths industry.",
-    },
-    {
-        name: "Wyatt Hoke",
-        role: "W376889",
-        phone: "561-699-5490",
-        email: "WYATT@PALMPTS.COM",
-        imageUrl: wyattPic,
-        bio: "Wyatt is a seasoned state Public Adjuster, bringing over 7 years of industry experience, specializing in managing some of the largest claims in South Florida. A Finance graduate from FAU, he has adeptly represented and adjusted a myriad of both residential and commercial claims, focusing on delivering outstanding results for every client. Wyatt is deeply committed to alleviating the burden his clients face in trying times, exploring every viable avenue of recovery to ensure maximum compensation. This allows his clients the peace of mind to concentrate on rebuilding and progressing. His dedication and unparalleled drive to advocate on behalf of his clients set him apart in the field, exemplifying a relentless pursuit for their well-being and satisfaction.",
     },
     {
         name: "David Milchan",
@@ -225,6 +227,9 @@ export default function EmployeeStaff() {
                                     <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
                                         {person.name}
                                     </h3>
+                                    <p className="mt-1 text-sm leading-6 text-gray-600">
+                                        {person.position}
+                                    </p>
                                     <p className="mt-1 text-sm leading-6 text-gray-600">
                                         {person.role}
                                     </p>
