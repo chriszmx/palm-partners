@@ -18,6 +18,9 @@ import vladPic from "../../../assets/employee-images/vladimir-victor.png";
 import wyattPic from "../../../assets/employee-images/wyatt-hoke.png";
 import josephPic from "../../../assets/employee-images/joseph-zanio.png";
 import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017.jpg";
+import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli.jpg";
+import marianaEsquivelPic from "../../../assets/employee-images/MarianaEsquivel.jpg";
+
 
 const people = [
     {
@@ -150,11 +153,27 @@ const people = [
     },
     {
         name: "Diego Sena",
-        role: "----",
-        phone: "----",
-        email: "----",
+        role: "",
+        phone: "",
+        email: "",
         imageUrl: diegoSenaPic,
-        bio: "----",
+        bio: "",
+    },
+    {
+        name: "Keyan Hasseli",
+        role: "",
+        phone: "",
+        email: "",
+        imageUrl: keyanHasseliPic,
+        bio: "",
+    },
+    {
+        name: "Mariana Esquivel",
+        role: "",
+        phone: "",
+        email: "",
+        imageUrl: marianaEsquivelPic,
+        bio: "",
     },
 ];
 
