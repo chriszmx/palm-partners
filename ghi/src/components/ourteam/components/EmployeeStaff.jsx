@@ -4,9 +4,8 @@ import { useState } from "react";
 import brandonPic from "../../../assets/employee-images/brandon-vietti.png";
 import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
 import fletcherPic from "../../../assets/employee-images/fletcher-liu.png";
-import reynelPic from "../../../assets/employee-images/reynel-lavandera.png";
 import michaelMPic from "../../../assets/employee-images/michael-mastromarino.png";
-import michaelPic from "../../../assets/employee-images/michael-carr.png";
+import michaelPic from "../../../assets/employee-images/MichaelCarr.jpg";
 import davidPic from "../../../assets/employee-images/david-milchan.png";
 import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
@@ -20,6 +19,9 @@ import josephPic from "../../../assets/employee-images/joseph-zanio.png";
 import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017.jpg";
 import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli.jpg";
 import marianaEsquivelPic from "../../../assets/employee-images/MarianaEsquivel.jpg";
+import nickSammanPic from "../../../assets/employee-images/NickSamman.jpg";
+import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera.jpg";
+
 
 
 const people = [
@@ -30,6 +32,46 @@ const people = [
         email: "MIKE@PALMPTS.COM",
         imageUrl: michaelPic,
         bio: "Mike is the proud owner of Palm Partners and has dedicated over 10 years to the property claims industry. He's handled large losses, including high-value properties and commercial claims. Throughout his career, Mike has also grown other public adjusting firms, taking them from just 2 adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong Relationships with insurance companies. His name is well0known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.",
+    },
+    {
+        name: "Diego Sena",
+        role: "",
+        phone: "",
+        email: "",
+        imageUrl: diegoSenaPic,
+        bio: "",
+    },
+    {
+        name: "Keyan Hasseli",
+        role: "",
+        phone: "",
+        email: "",
+        imageUrl: keyanHasseliPic,
+        bio: "",
+    },
+    {
+        name: "Mariana Esquivel",
+        role: "",
+        phone: "",
+        email: "",
+        imageUrl: marianaEsquivelPic,
+        bio: "",
+    },
+    {
+        name: "Nick Samman",
+        role: "",
+        phone: "",
+        email: "",
+        imageUrl: nickSammanPic,
+        bio: "",
+    },
+    {
+        name: "Reynel Lavandera",
+        role: "W890491",
+        phone: "",
+        email: "REY@PALMPTS.COM",
+        imageUrl: reyLavanderaPic,
+        bio: "With over 5 years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential loses. Rey's expertise in plumbing and roof claims has consistently led to successful settlements for his clients. Within our company, he manages a large number of claims, often because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in ths industry.",
     },
     {
         name: "Wyatt Hoke",
@@ -128,14 +170,6 @@ const people = [
         bio: "Fletcher is a distinguished Public Adjuster who has notability specialized in managing claims on the West Coast, particularly those arising from the devastation of Hurricane Ian. With a deep commitment to aiding hundreds of affected homeowners, he has been instrumental in navigating the complexities of insurance claims, ensuring rightful compensation and aiding in swift recovery. His extensive experience and unwavering advocacy for policyholders make him a trusted asset, providing unparalleled guidance and support to those seeking to rebuild their lives post-disaster.",
     },
     {
-        name: "Reynel Lavandera",
-        role: "W890491",
-        phone: "",
-        email: "REY@PALMPTS.COM",
-        imageUrl: reynelPic,
-        bio: "With over 5 years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential loses. Rey's expertise in plumbing and roof claims has consistently led to successful settlements for his clients. Within our company, he manages a large number of claims, often because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in ths industry.",
-    },
-    {
         name: "Vladimir Victor",
         role: "W704408",
         phone: "561-245-3888",
@@ -150,30 +184,6 @@ const people = [
         email: "TREY@PALMPTS.COM",
         imageUrl: treyPic,
         bio: "Trey comes from a lineage of excellence in construction, with his father being a renowned high-end builder overseeing projects valued at over $10 million. While Trey proudly serves as a firefighter, he also possesses an innate understanding of the construction industry, having spent significant time working alongside his family on upscale projects. His expertise extends to managing property claims for the firm, where he boasts one of the swiftest settlement turnaround times. Trey's proficiency encompasses both residential and commercial claims, making him an invaluable asset to the team.",
-    },
-    {
-        name: "Diego Sena",
-        role: "",
-        phone: "",
-        email: "",
-        imageUrl: diegoSenaPic,
-        bio: "",
-    },
-    {
-        name: "Keyan Hasseli",
-        role: "",
-        phone: "",
-        email: "",
-        imageUrl: keyanHasseliPic,
-        bio: "",
-    },
-    {
-        name: "Mariana Esquivel",
-        role: "",
-        phone: "",
-        email: "",
-        imageUrl: marianaEsquivelPic,
-        bio: "",
     },
 ];
 
