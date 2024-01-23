@@ -10,7 +10,6 @@ import michaelPic from "../../../assets/employee-images/michael-carr.png";
 import davidPic from "../../../assets/employee-images/david-milchan.png";
 import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
-import howardPic from "../../../assets/employee-images/howard-sanders.png";
 import spencerPic from "../../../assets/employee-images/spencer-lee.png";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
 import taylorPic from "../../../assets/employee-images/taylor-banks.png";
@@ -18,6 +17,7 @@ import treyPic from "../../../assets/employee-images/trey-steinberger.png";
 import vladPic from "../../../assets/employee-images/vladimir-victor.png";
 import wyattPic from "../../../assets/employee-images/wyatt-hoke.png";
 import josephPic from "../../../assets/employee-images/joseph-zanio.png";
+import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017.jpg";
 
 const people = [
     {
@@ -149,12 +149,12 @@ const people = [
         bio: "Trey comes from a lineage of excellence in construction, with his father being a renowned high-end builder overseeing projects valued at over $10 million. While Trey proudly serves as a firefighter, he also possesses an innate understanding of the construction industry, having spent significant time working alongside his family on upscale projects. His expertise extends to managing property claims for the firm, where he boasts one of the swiftest settlement turnaround times. Trey's proficiency encompasses both residential and commercial claims, making him an invaluable asset to the team.",
     },
     {
-        name: "Howard Sanders",
-        role: "W661991",
-        phone: "561-208-5200",
-        email: "HOWARD@PALMPTS.COM",
-        imageUrl: howardPic,
-        bio: "Howard Sanders is a Florida native who grew up in South Florida and has worked and lived in Tallahassee, Orlando, and South Florida. Howard graduating from UCF with a bachelors degree and worked as an independent insurance adjuster for 2+ years before switching to be a public adjuster assisting homeowners with their residential property claims.",
+        name: "Diego Sena",
+        role: "----",
+        phone: "----",
+        email: "----",
+        imageUrl: diegoSenaPic,
+        bio: "----",
     },
 ];
 
