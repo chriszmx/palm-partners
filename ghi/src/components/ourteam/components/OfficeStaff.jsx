@@ -1,6 +1,7 @@
 import vevePic from "../../../assets/employee-images/veve-talerand.png";
 import jemimahPic from "../../../assets/employee-images/jemimah-cruz.png";
-import marianaPic from "../../../assets/employee-images/mariana-esquival.png";
+import marianaPic from "../../../assets/employee-images/mariana-esquival.jpg";
+import tiannaCornileusPic from "../../../assets/employee-images/TiannaCornileus.jpg";
 
 const people = [
     {
@@ -31,16 +32,16 @@ const people = [
         bio: "",
     },
     {
-        name: "Crystal Coakley",
-        role: "Claims Specialist",
+        name: "Tianna Cornileus",
+        role: "Accounting / Front Office",
         phone: "",
         email: "",
         imageUrl:
-            "https://t3.ftcdn.net/jpg/02/33/46/24/360_F_233462402_Fx1yke4ng4GA8TJikJZoiATrkncvW6Ib.jpg",
+            tiannaCornileusPic,
         bio: "",
     },
     {
-        name: "Shekeria Cook",
+        name: "Crystal Coakley",
         role: "Claims Specialist",
         phone: "",
         email: "",

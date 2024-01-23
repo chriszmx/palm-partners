@@ -12,13 +12,12 @@ import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
 import spencerPic from "../../../assets/employee-images/spencer-lee.png";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
 import taylorPic from "../../../assets/employee-images/taylor-banks.png";
-import treyPic from "../../../assets/employee-images/trey-steinberger.png";
-import vladPic from "../../../assets/employee-images/vladimir-victor.png";
-import wyattPic from "../../../assets/employee-images/wyatt-hoke.png";
+import treyPic from "../../../assets/employee-images/trey-steinberger.jpg";
+import vladPic from "../../../assets/employee-images/vladimir-victor.jpg";
+import wyattPic from "../../../assets/employee-images/wyatt-hoke.jpg";
 import josephPic from "../../../assets/employee-images/joseph-zanio.png";
 import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017.jpg";
 import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli.jpg";
-import marianaEsquivelPic from "../../../assets/employee-images/MarianaEsquivel.jpg";
 import nickSammanPic from "../../../assets/employee-images/NickSamman.jpg";
 import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera.jpg";
 
@@ -37,7 +36,7 @@ const people = [
         name: "Diego Sena",
         role: "",
         phone: "",
-        email: "",
+        email: "DIEGO@PALMPTS.COM",
         imageUrl: diegoSenaPic,
         bio: "",
     },
@@ -45,25 +44,33 @@ const people = [
         name: "Keyan Hasseli",
         role: "",
         phone: "",
-        email: "",
+        email: "KEYAN@PALMPTS.COM",
         imageUrl: keyanHasseliPic,
-        bio: "",
-    },
-    {
-        name: "Mariana Esquivel",
-        role: "",
-        phone: "",
-        email: "",
-        imageUrl: marianaEsquivelPic,
         bio: "",
     },
     {
         name: "Nick Samman",
         role: "",
         phone: "",
-        email: "",
+        email: "NICK@PALMPTS.COM",
         imageUrl: nickSammanPic,
         bio: "",
+    },
+    {
+        name: "Vladimir Victor",
+        role: "W704408",
+        phone: "561-245-3888",
+        email: "VLAD@PALMPTS.COM",
+        imageUrl: vladPic,
+        bio: "Vladimir, one of our lead network adjusters, has consistently showcased his adeptness in handling property claims with remarkable efficiency. He maintains one of the highest success rates in property settlements within our team, testament to his skill and dedication. Vladimir's adept handling extends to a broad spectrum of property damage cases encompassing plumbing, roofing, fire, and flood-related incidents bringing in-dept expertise to these nuanced areas. His rich background in the insurance sector has seamlessly transitioned into his role as a public adjuster, ensuring that he approaches each claim with a holistic understanding and a client-focused perspective.",
+    },
+    {
+        name: "Trey Steinberger",
+        role: "W934171",
+        phone: "561-576-6077",
+        email: "TREY@PALMPTS.COM",
+        imageUrl: treyPic,
+        bio: "Trey comes from a lineage of excellence in construction, with his father being a renowned high-end builder overseeing projects valued at over $10 million. While Trey proudly serves as a firefighter, he also possesses an innate understanding of the construction industry, having spent significant time working alongside his family on upscale projects. His expertise extends to managing property claims for the firm, where he boasts one of the swiftest settlement turnaround times. Trey's proficiency encompasses both residential and commercial claims, making him an invaluable asset to the team.",
     },
     {
         name: "Reynel Lavandera",
@@ -168,22 +175,6 @@ const people = [
         email: "FLETCHER@PALMPTS.COM",
         imageUrl: fletcherPic,
         bio: "Fletcher is a distinguished Public Adjuster who has notability specialized in managing claims on the West Coast, particularly those arising from the devastation of Hurricane Ian. With a deep commitment to aiding hundreds of affected homeowners, he has been instrumental in navigating the complexities of insurance claims, ensuring rightful compensation and aiding in swift recovery. His extensive experience and unwavering advocacy for policyholders make him a trusted asset, providing unparalleled guidance and support to those seeking to rebuild their lives post-disaster.",
-    },
-    {
-        name: "Vladimir Victor",
-        role: "W704408",
-        phone: "561-245-3888",
-        email: "VLAD@PALMPTS.COM",
-        imageUrl: vladPic,
-        bio: "Vladimir, one of our lead network adjusters, has consistently showcased his adeptness in handling property claims with remarkable efficiency. He maintains one of the highest success rates in property settlements within our team, testament to his skill and dedication. Vladimir's adept handling extends to a broad spectrum of property damage cases encompassing plumbing, roofing, fire, and flood-related incidents bringing in-dept expertise to these nuanced areas. His rich background in the insurance sector has seamlessly transitioned into his role as a public adjuster, ensuring that he approaches each claim with a holistic understanding and a client-focused perspective.",
-    },
-    {
-        name: "Trey Steinberger",
-        role: "W934171",
-        phone: "561-576-6077",
-        email: "TREY@PALMPTS.COM",
-        imageUrl: treyPic,
-        bio: "Trey comes from a lineage of excellence in construction, with his father being a renowned high-end builder overseeing projects valued at over $10 million. While Trey proudly serves as a firefighter, he also possesses an innate understanding of the construction industry, having spent significant time working alongside his family on upscale projects. His expertise extends to managing property claims for the firm, where he boasts one of the swiftest settlement turnaround times. Trey's proficiency encompasses both residential and commercial claims, making him an invaluable asset to the team.",
     },
 ];
 
