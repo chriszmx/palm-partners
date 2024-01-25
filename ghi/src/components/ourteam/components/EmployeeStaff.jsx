@@ -9,7 +9,7 @@ import michaelPic from "../../../assets/employee-images/MichaelCarr-min.jpg";
 import davidPic from "../../../assets/employee-images/david-milchan.jpg";
 import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
-import spencerPic from "../../../assets/employee-images/spencer-lee.png";
+import spencerPic from "../../../assets/employee-images/spencer-lee.jpg";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
 import taylorPic from "../../../assets/employee-images/taylor-banks.jpg";
 import treyPic from "../../../assets/employee-images/trey-steinberger-min.jpg";
