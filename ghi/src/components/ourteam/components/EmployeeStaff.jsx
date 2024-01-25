@@ -85,7 +85,7 @@ const people = [
     {
         name: "Reynel Lavandera",
         role: "W890491",
-        phone: "",
+        phone: "561-722-9335",
         email: "REY@PALMPTS.COM",
         imageUrl: reyLavanderaPic,
         bio: "With over 5 years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential loses. Rey's expertise in plumbing and roof claims has consistently led to successful settlements for his clients. Within our company, he manages a large number of claims, often because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in ths industry.",
