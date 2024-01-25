@@ -1,5 +1,5 @@
-import vevePic from "../../../assets/employee-images/veve-talerand.png";
-import jemimahPic from "../../../assets/employee-images/jemimah-cruz.png";
+import vevePic from "../../../assets/employee-images/veve-talerand.jpg";
+import jemimahPic from "../../../assets/employee-images/jemimah-cruz.jpg";
 import marianaPic from "../../../assets/employee-images/mariana-esquival-min.jpg";
 import tiannaCornileusPic from "../../../assets/employee-images/TiannaCornileus-min.jpg";
 
