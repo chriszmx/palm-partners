@@ -1,7 +1,7 @@
 import vevePic from "../../../assets/employee-images/veve-talerand.png";
 import jemimahPic from "../../../assets/employee-images/jemimah-cruz.png";
-import marianaPic from "../../../assets/employee-images/mariana-esquival.jpg";
-import tiannaCornileusPic from "../../../assets/employee-images/TiannaCornileus.jpg";
+import marianaPic from "../../../assets/employee-images/mariana-esquival-min.jpg";
+import tiannaCornileusPic from "../../../assets/employee-images/TiannaCornileus-min.jpg";
 
 const people = [
     {

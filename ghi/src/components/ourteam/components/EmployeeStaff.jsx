@@ -5,21 +5,21 @@ import brandonPic from "../../../assets/employee-images/brandon-vietti.png";
 import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
 import fletcherPic from "../../../assets/employee-images/fletcher-liu.png";
 import michaelMPic from "../../../assets/employee-images/michael-mastromarino.png";
-import michaelPic from "../../../assets/employee-images/MichaelCarr.jpg";
+import michaelPic from "../../../assets/employee-images/MichaelCarr-min.jpg";
 import davidPic from "../../../assets/employee-images/david-milchan.png";
 import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
 import spencerPic from "../../../assets/employee-images/spencer-lee.png";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
 import taylorPic from "../../../assets/employee-images/taylor-banks.png";
-import treyPic from "../../../assets/employee-images/trey-steinberger.jpg";
-import vladPic from "../../../assets/employee-images/vladimir-victor.jpg";
-import wyattPic from "../../../assets/employee-images/wyatt-hoke.jpg";
+import treyPic from "../../../assets/employee-images/trey-steinberger-min.jpg";
+import vladPic from "../../../assets/employee-images/vladimir-victor-min.jpg";
+import wyattPic from "../../../assets/employee-images/wyatt-hoke-min.jpg";
 import josephPic from "../../../assets/employee-images/joseph-zanio.png";
-import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017.jpg";
-import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli.jpg";
-import nickSammanPic from "../../../assets/employee-images/NickSamman.jpg";
-import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera.jpg";
+import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min.jpg";
+import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min.jpg";
+import nickSammanPic from "../../../assets/employee-images/NickSamman-min.jpg";
+import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera-min.jpg";
 
 
 
