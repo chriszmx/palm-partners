@@ -2,6 +2,7 @@ import vevePic from "../../../assets/employee-images/veve-talerand.jpg";
 import jemimahPic from "../../../assets/employee-images/jemimah-cruz.jpg";
 import marianaPic from "../../../assets/employee-images/mariana-esquival-min.jpg";
 import tiannaCornileusPic from "../../../assets/employee-images/TiannaCornileus-min.jpg";
+import ashleyMarieVacPic from "../../../assets/employee-images/ashley-marie-vaz.jpg";
 
 const people = [
     {
@@ -38,6 +39,15 @@ const people = [
         email: "",
         imageUrl:
             tiannaCornileusPic,
+        bio: "",
+    },
+    {
+        name: "Ashley Marie Vaz",
+        role: "Accounting / Front Office",
+        phone: "",
+        email: "",
+        imageUrl:
+            ashleyMarieVacPic,
         bio: "",
     },
     {

@@ -20,6 +20,9 @@ import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min.jpg"
 import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min.jpg";
 import nickSammanPic from "../../../assets/employee-images/NickSamman-min.jpg";
 import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera-min.jpg";
+import kenyaGilfillianPic from "../../../assets/employee-images/kenya-gilfillian.jpg";
+import royCarterPic from "../../../assets/employee-images/roy-carter.jpg";
+
 
 
 
@@ -56,6 +59,14 @@ const people = [
         phone: "954-641-2018",
         email: "KEYAN@PALMPTS.COM",
         imageUrl: keyanHasseliPic,
+        bio: "",
+    },
+    {
+        name: "Kenya Gilfillian",
+        role: "",
+        phone: "954-641-2018",
+        email: "KENYA@PALMPTS.COM",
+        imageUrl: kenyaGilfillianPic,
         bio: "",
     },
     {
@@ -115,6 +126,14 @@ const people = [
         bio: "A seasoned Public Adjuster with over a decade of experience in the insurance industry. Joseph holds both a 320 Public Adjusting license and a 220 All Lines licenses. Graduating with honors in Communications from Florida International University, he leverages his academic background, industry training, and knowledge to expertly analyze policies, ensuring clients receive maximum compensation. Joseph has successfully recovered millions in insurance claims funds, handling a wide range of issues, from catastrophic events like hurricanes to common problems like fires and leaks. His commitment involves guiding clients through various claim scenarios, including but not limited to underfunded, denied, and delayed claims. This achieved with a focus on preserving policy rights for a secure financial recovery in the face of unexpected events.",
     },
     {
+        name: "Roy Carter",
+        role: "",
+        phone: "954-641-2018",
+        email: "Roy@PALMPTS.COM",
+        imageUrl: royCarterPic,
+        bio: "",
+    },
+    {
         name: "Brandon Vetti",
         role: "W718570",
         phone: "561-441-9742",
@@ -131,28 +150,12 @@ const people = [
         bio: "As a former Director of operations for Castle Group, Spencer brings a unique property management expertise to the commercial claims division. He has a proven track record for assisting community associations and property managers with a navigating the complex claims process from start to finish. Spencer values customer service and specializes in managers, Board of Directors, and residential homeowners with storm, roof, and plumbing damage.",
     },
     {
-        name: "Sean O'Dell",
-        role: "W523470",
-        phone: "561-289-6330",
-        email: "SEAN@PALMPTS.COM",
-        imageUrl: seanPic,
-        bio: "Sean has worked as a public Adjuster since 2017 in both Florida and Texas. He is certified in Xactimate for damage analysis/estimation and holds an FAA license for UAV flight operations to perform complex roof inspections utilizing a drone for high resolution 4k images. Additionally, he specializes in using Matterport technology to generate highly detailed spatial 3D renders of homes and businesses to provide a detailed and accurate estimate of damages. Sean has utilized these tools to achieve the best settlement possible even during litigation in both State and Federal courts.",
-    },
-    {
         name: "Michael Maxtromarino",
         role: "W742350",
         phone: "561-405-8599",
         email: "MIKE.M@PALMPTS.COM",
         imageUrl: michaelMPic,
         bio: "Mike, a seasoned Public Adjuster and UCF graduate, brings a wealth of expertise from his dual roles in managing and settling substantial residential and commercial claims, often exceeding six figures, spanning various damages including hurricanes, fires, mold, plumbing, and wind. His comprehensive understanding of the property industry has proven track record in securing significant settlements make him a pivotal asset in advocating for our clients rights and ensuring optimal outcomes.",
-    },
-    {
-        name: "Frank Stallone",
-        role: "W772871",
-        phone: "561-722-9335",
-        email: "FRANK@PALMPTS.COM",
-        imageUrl: frankPic,
-        bio: "Frank, a Florida native and a distinguished UCF alumnus, leverages his rich background in public adjusting and his family's legacy in the pool construction sector to deliver unparalleled service to our clients. He has adeptly handled and settled some of the largest, often six-figure, residential and commercial claims related to hurricanes, fires, mold, plumbing, and wind. Frank's extensive knowledge and unwavering commitment have established him as a trusted advocate, securing maximal settlements and alleviating the stress of navigating complex claims for our clients.",
     },
     {
         name: "Daniel Rumfelt",
@@ -163,20 +166,36 @@ const people = [
         bio: "With his background in home renovations, Daniel has been extremely successful in recovering money for new roofs, and plumbing claims. As a successful adjuster he demonstrates a passion for helping others with professionalism. Daniel is there when you nee him the most.",
     },
     {
-        name: "Hamon Burkhardt",
-        role: "W104067",
-        phone: "561-699-9453",
-        email: "HAMON@PALMPTS.COM",
-        imageUrl: hamonPic,
-        bio: "Florida native, Hamon earned his B.S. in Accounting from Florida Atlantic University in 2010, launching his career in finance as an administrative bookkeeper. He diversified his experience in roles at Kaplan University and the mortgage sector before specializing in insurance. Acquiring his 2-15 Producer License in 2014, he build a successful agency and substantial client base, focusing on market guidance and long-term services in Health, Life & Annuities. Compelled by witnessing unjust property insurance claims outcomes, he became a certified Public Adjuster in 2020, joining Oakmount to address varied claims effectively across Florida. Hamon is dedicated to ensuring fair representation and comprehensive solutions for homeowners, specializing in overturning denied claims and adept negotiation.",
-    },
-    {
         name: "Fletcher Liu",
         role: "W847792",
         phone: "954-461-9369",
         email: "FLETCHER@PALMPTS.COM",
         imageUrl: fletcherPic,
         bio: "Fletcher is a distinguished Public Adjuster who has notability specialized in managing claims on the West Coast, particularly those arising from the devastation of Hurricane Ian. With a deep commitment to aiding hundreds of affected homeowners, he has been instrumental in navigating the complexities of insurance claims, ensuring rightful compensation and aiding in swift recovery. His extensive experience and unwavering advocacy for policyholders make him a trusted asset, providing unparalleled guidance and support to those seeking to rebuild their lives post-disaster.",
+    },
+    {
+        name: "Sean O'Dell",
+        role: "W523470",
+        phone: "561-289-6330",
+        email: "SEAN@PALMPTS.COM",
+        imageUrl: seanPic,
+        bio: "Sean has worked as a public Adjuster since 2017 in both Florida and Texas. He is certified in Xactimate for damage analysis/estimation and holds an FAA license for UAV flight operations to perform complex roof inspections utilizing a drone for high resolution 4k images. Additionally, he specializes in using Matterport technology to generate highly detailed spatial 3D renders of homes and businesses to provide a detailed and accurate estimate of damages. Sean has utilized these tools to achieve the best settlement possible even during litigation in both State and Federal courts.",
+    },
+    {
+        name: "Frank Stallone",
+        role: "W772871",
+        phone: "561-722-9335",
+        email: "FRANK@PALMPTS.COM",
+        imageUrl: frankPic,
+        bio: "Frank, a Florida native and a distinguished UCF alumnus, leverages his rich background in public adjusting and his family's legacy in the pool construction sector to deliver unparalleled service to our clients. He has adeptly handled and settled some of the largest, often six-figure, residential and commercial claims related to hurricanes, fires, mold, plumbing, and wind. Frank's extensive knowledge and unwavering commitment have established him as a trusted advocate, securing maximal settlements and alleviating the stress of navigating complex claims for our clients.",
+    },
+    {
+        name: "Hamon Burkhardt",
+        role: "W104067",
+        phone: "561-699-9453",
+        email: "HAMON@PALMPTS.COM",
+        imageUrl: hamonPic,
+        bio: "Florida native, Hamon earned his B.S. in Accounting from Florida Atlantic University in 2010, launching his career in finance as an administrative bookkeeper. He diversified his experience in roles at Kaplan University and the mortgage sector before specializing in insurance. Acquiring his 2-15 Producer License in 2014, he build a successful agency and substantial client base, focusing on market guidance and long-term services in Health, Life & Annuities. Compelled by witnessing unjust property insurance claims outcomes, he became a certified Public Adjuster in 2020, joining Oakmount to address varied claims effectively across Florida. Hamon is dedicated to ensuring fair representation and comprehensive solutions for homeowners, specializing in overturning denied claims and adept negotiation.",
     },
 ];
 
