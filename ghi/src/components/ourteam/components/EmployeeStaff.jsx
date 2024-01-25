@@ -15,7 +15,7 @@ import taylorPic from "../../../assets/employee-images/taylor-banks.jpg";
 import treyPic from "../../../assets/employee-images/trey-steinberger-min.jpg";
 import vladPic from "../../../assets/employee-images/vladimir-victor-min.jpg";
 import wyattPic from "../../../assets/employee-images/wyatt-hoke-min.jpg";
-import josephPic from "../../../assets/employee-images/joseph-zanio.png";
+import josephPic from "../../../assets/employee-images/joseph-zaino.jpg";
 import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min.jpg";
 import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min.jpg";
 import nickSammanPic from "../../../assets/employee-images/NickSamman-min.jpg";
@@ -107,7 +107,7 @@ const people = [
         bio: "Taylor is one of our most experienced adjusters with settling hundreds of claims resulting in millions of dollars recovered for homeowners. Whether it is a plumbing, fire, or hurricane claim. He has the knowledge to help you get what you deserve. He specializes in commercial claims and large losses. With a background in Finance and a Bachelor's degree from the University of Central Florida, Taylor Joined our team to help make a difference for our clients.",
     },
     {
-        name: "Joseph Zanio",
+        name: "Joseph Zaino",
         role: "W290547",
         phone: "561-401-7941",
         email: "JOEY@PALMPTS.COM",
