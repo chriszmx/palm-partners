@@ -11,7 +11,7 @@ import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
 import spencerPic from "../../../assets/employee-images/spencer-lee.png";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
-import taylorPic from "../../../assets/employee-images/taylor-banks.png";
+import taylorPic from "../../../assets/employee-images/taylor-banks.jpg";
 import treyPic from "../../../assets/employee-images/trey-steinberger-min.jpg";
 import vladPic from "../../../assets/employee-images/vladimir-victor-min.jpg";
 import wyattPic from "../../../assets/employee-images/wyatt-hoke-min.jpg";
