@@ -4,11 +4,11 @@ import { useState } from "react";
 import brandonPic from "../../../assets/employee-images/brandon-vietti.jpg";
 import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
 import fletcherPic from "../../../assets/employee-images/fletcher-liu.png";
-import michaelMPic from "../../../assets/employee-images/michael-mastromarino.png";
+import michaelMPic from "../../../assets/employee-images/michael-maxtromarino.jpg";
 import michaelPic from "../../../assets/employee-images/MichaelCarr-min.jpg";
 import davidPic from "../../../assets/employee-images/david-milchan.jpg";
 import seanPic from "../../../assets/employee-images/sean-odell.png";
-import danielPic from "../../../assets/employee-images/daniel-rumfelt.png";
+import danielPic from "../../../assets/employee-images/daniel-rumfelt.jpg";
 import spencerPic from "../../../assets/employee-images/spencer-lee.jpg";
 import frankPic from "../../../assets/employee-images/frank-stallone.png";
 import taylorPic from "../../../assets/employee-images/taylor-banks.jpg";
@@ -139,7 +139,7 @@ const people = [
         bio: "Sean has worked as a public Adjuster since 2017 in both Florida and Texas. He is certified in Xactimate for damage analysis/estimation and holds an FAA license for UAV flight operations to perform complex roof inspections utilizing a drone for high resolution 4k images. Additionally, he specializes in using Matterport technology to generate highly detailed spatial 3D renders of homes and businesses to provide a detailed and accurate estimate of damages. Sean has utilized these tools to achieve the best settlement possible even during litigation in both State and Federal courts.",
     },
     {
-        name: "Michael Mastramino",
+        name: "Michael Maxtromarino",
         role: "W742350",
         phone: "561-405-8599",
         email: "MIKE.M@PALMPTS.COM",
