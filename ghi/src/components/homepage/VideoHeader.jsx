@@ -13,7 +13,17 @@ import FAPIA from "../../assets/fapia.png";
 
 const VideoHeader = () => {
     // Define the video sources here
-    const videos = [video7, video6, video5, video4, video8, video9, video1, video2, video3];
+    const videos = [
+        video7,
+        video6,
+        video5,
+        video4,
+        video8,
+        video9,
+        video1,
+        video2,
+        video3,
+    ];
     const [fade, setFade] = useState(false);
     const [showOverlay, setShowOverlay] = useState(false);
 
@@ -115,23 +125,34 @@ const VideoHeader = () => {
         `}
             </style>
 
-            <div className="relative h-120 w-full overflow-hidden mb-10 video-3d-shadow">
-                {/* Video container */}
+            <div
+                className="relative w-full overflow-hidden video-3d-shadow"
+                style={{ paddingTop: "56.25%" }}
+            >
                 <video
-                    className={`absolute top-0 left-0 w-full h-full object-cover ${
-                        fade ? "fade-out" : "fade-in"
-                    }`}
+                    className="absolute top-0 left-0 w-full h-full object-cover"
                     src={currentVideo}
                     autoPlay
                     loop
                     muted
                     playsInline
                 />
+                {/* Video container */}
+                {/* <video
+                    className={`absolute top-0 left-0 w-full h-full object-cover ${
+                        fade ? "" : ""
+                    }`}
+                    src={currentVideo}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                /> */}
                 {/* Solid color overlay */}
                 <div
                     className={`absolute top-0 left-0 w-full h-full ${
                         showOverlay ? "overlay-in" : "overlay-out"
-                    } bg-sky-100`}
+                    } bg-slate-500`}
                 />
 
                 {/* Text container */}
