@@ -5,24 +5,6 @@ import tiannaCornileusPic from "../../../assets/employee-images/TiannaCornileus-
 
 const people = [
     {
-        name: "Veve Talerand",
-        role: "Office Manager",
-        phone: "",
-        email: "",
-        imageUrl:
-            vevePic,
-        bio: "",
-    },
-    {
-        name: "Jemimah Cruz",
-        role: "Accounting Manager",
-        phone: "",
-        email: "",
-        imageUrl:
-            jemimahPic,
-        bio: "",
-    },
-    {
         name: "Mariana Esquival",
         role: "Accounting / Front Office",
         phone: "",
@@ -38,6 +20,24 @@ const people = [
         email: "",
         imageUrl:
             tiannaCornileusPic,
+        bio: "",
+    },
+    {
+        name: "Veve Talerand",
+        role: "Office Manager",
+        phone: "",
+        email: "",
+        imageUrl:
+            vevePic,
+        bio: "",
+    },
+    {
+        name: "Jemimah Cruz",
+        role: "Accounting Manager",
+        phone: "",
+        email: "",
+        imageUrl:
+            jemimahPic,
         bio: "",
     },
     {
@@ -69,38 +69,51 @@ export default function OfficeStaff() {
                     className="mx-auto mt-12 grid grid-cols-1 gap-8 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 sm:gap-x-6 lg:gap-x-8"
                 >
                     {people.map((person) => (
-                    <li key={person.name} className="flex flex-col items-center">
-                        <img
-                            className="h-64 w-full max-w-xs flex-none rounded-2xl object-cover"
-                            src={person.imageUrl}
-                            loading="lazy"
-                            alt={person.name}
-                        />
-                        <div className="mt-4 flex flex-col items-center">
-                            <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
-                                {person.name}
-                            </h3>
-                            <p className="mt-1 text-sm leading-6 text-gray-600">
-                                {person.role}
-                            </p>
-                            <p className="mt-1 text-sm leading-6 text-gray-600">
-                                <a
-                                    href={`mailto:${person.email}`}
-                                    className="hover:text-blue-600"
-                                >
-                                    {person.email}
-                                </a>
-                            </p>
-                            <p className="mt-1 text-sm leading-6 text-gray-600">
-                                <a
-                                    href={`tel:${person.phone}`}
-                                    className="hover:text-blue-600"
-                                >
-                                    {person.phone}
-                                </a>
-                            </p>
-                        </div>
-                </li>
+                        <li
+                            key={person.name}
+                            className="flex flex-col items-center"
+                        >
+                            <button
+                                onClick={() => openModal(person)}
+                                className="focus:outline-none"
+                            >
+                                {person.imageUrl && (
+                                    <img
+                                        className="w-full max-w-xs flex-none rounded-2xl object-cover"
+                                        src={person.imageUrl}
+                                        loading="lazy"
+                                        alt={person.name}
+                                    />
+                                )}
+                                <div className="mt-4 flex flex-col items-center">
+                                    <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                                        {person.name}
+                                    </h3>
+                                    <p className="mt-1 text-sm leading-6 text-gray-600">
+                                        {person.position}
+                                    </p>
+                                    <p className="mt-1 text-sm leading-6 text-gray-600">
+                                        {person.role}
+                                    </p>
+                                    <p className="mt-1 text-sm leading-6 text-gray-600">
+                                        <a
+                                            href={`mailto:${person.email}`}
+                                            className="hover:text-blue-600"
+                                        >
+                                            {person.email}
+                                        </a>
+                                    </p>
+                                    <p className="mt-1 text-sm leading-6 text-gray-600">
+                                        <a
+                                            href={`tel:${person.phone}`}
+                                            className="hover:text-blue-600"
+                                        >
+                                            {person.phone}
+                                        </a>
+                                    </p>
+                                </div>
+                            </button>
+                        </li>
                     ))}
                 </ul>
             </div>
