@@ -20,8 +20,6 @@ import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min.jpg"
 import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min.jpg";
 import nickSammanPic from "../../../assets/employee-images/NickSamman-min.jpg";
 import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera-min.jpg";
-import kenyaGilfillianPic from "../../../assets/employee-images/kenya-gilfillian.jpg";
-import royCarterPic from "../../../assets/employee-images/roy-carter.jpg";
 
 
 
@@ -62,14 +60,6 @@ const people = [
         bio: "",
     },
     {
-        name: "Kenya Gilfillian",
-        role: "",
-        phone: "954-641-2018",
-        email: "KENYA@PALMPTS.COM",
-        imageUrl: kenyaGilfillianPic,
-        bio: "",
-    },
-    {
         name: "Nick Samman",
         role: "G056898",
         phone: "954-641-2018",
@@ -100,14 +90,6 @@ const people = [
         email: "REY@PALMPTS.COM",
         imageUrl: reyLavanderaPic,
         bio: "With over 5 years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential loses. Rey's expertise in plumbing and roof claims has consistently led to successful settlements for his clients. Within our company, he manages a large number of claims, often because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in ths industry.",
-    },
-    {
-        name: "Roy Carter",
-        role: "",
-        phone: "954-641-2018",
-        email: "Roy@PALMPTS.COM",
-        imageUrl: royCarterPic,
-        bio: "",
     },
     {
         name: "Brandon Vetti",
