@@ -125,29 +125,69 @@ const VideoHeader = () => {
         `}
             </style>
 
-            <div
-                className="relative w-full overflow-hidden video-3d-shadow"
-                style={{ paddingTop: "56.25%" }}
-            >
-                <video
-                    className="absolute top-0 left-0 w-full h-full object-cover"
-                    src={currentVideo}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                />
-                {/* Video container */}
-                {/* <video
-                    className={`absolute top-0 left-0 w-full h-full object-cover ${
-                        fade ? "" : ""
-                    }`}
-                    src={currentVideo}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                /> */}
+  {/* For small screens */}
+  <div className="relative h-120 w-full overflow-hidden video-3d-shadow sm:hidden">
+    <video
+      className="absolute top-0 left-0 w-full h-full object-cover"
+      src={currentVideo}
+      autoPlay
+      loop
+      muted
+      playsInline
+    />
+                    <div className="absolute top-0 left-0 w-full h-full flex items-center justify-left bg-black bg-opacity-25">
+                    <div className="text-center p-8">
+                        <h1 className="text-white text-6xl font-bold mb-6">
+                            PALM PARTNERS
+                        </h1>
+                        <p className="text-white text-3xl mb-8">
+                            Public Adjusting Loss Management
+                        </p>
+
+                        <div className="contact-us-mobile hidden sm:mb-8 sm:flex sm:justify-center">
+                            <div className="relative rounded-full px-3 py-1 text-2xl leading-6 text-gray-100 ring-1 ring-white/40 hover:ring-white/80">
+                                <a
+                                    href="/contact-us"
+                                    className="font-semibold text-white"
+                                >
+                                    <span
+                                        className="absolute inset-0"
+                                        aria-hidden="true"
+                                    />
+                                    CONTACT US TODAY
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="flex justify-center items-center gap-4">
+                            <img
+                                src={BBB}
+                                alt="BBB"
+                                className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg"
+                            />
+                            <img
+                                src={FAPIA}
+                                alt="FAPIA"
+                                className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg"
+                            />
+                        </div>
+                    </div>
+                </div>
+  </div>
+
+  {/* For screens sm and above */}
+  <div
+    className="hidden sm:block sm:relative sm:w-full overflow-hidden video-3d-shadow"
+    style={{ paddingTop: "56.25%" }}
+  >
+    <video
+      className="absolute top-0 left-0 w-full h-full object-cover"
+      src={currentVideo}
+      autoPlay
+      loop
+      muted
+      playsInline
+    />
                 {/* Solid color overlay */}
                 <div
                     className={`absolute top-0 left-0 w-full h-full ${

@@ -2,15 +2,15 @@ import Modal from "./Modal";
 import { useState } from "react";
 
 import brandonPic from "../../../assets/employee-images/brandon-vietti.jpg";
-import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
+// import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
 import fletcherPic from "../../../assets/employee-images/fletcher-liu.jpg";
 import michaelMPic from "../../../assets/employee-images/michael-maxtromarino.jpg";
 import michaelPic from "../../../assets/employee-images/MichaelCarr-min.jpg";
 import davidPic from "../../../assets/employee-images/david-milchan.jpg";
-import seanPic from "../../../assets/employee-images/sean-odell.png";
+// import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt.jpg";
 import spencerPic from "../../../assets/employee-images/spencer-lee.jpg";
-import frankPic from "../../../assets/employee-images/frank-stallone.png";
+// import frankPic from "../../../assets/employee-images/frank-stallone.png";
 import taylorPic from "../../../assets/employee-images/taylor-banks.jpg";
 import treyPic from "../../../assets/employee-images/trey-steinberger-min.jpg";
 import vladPic from "../../../assets/employee-images/vladimir-victor-min.jpg";
@@ -20,9 +20,6 @@ import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min.jpg"
 import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min.jpg";
 import nickSammanPic from "../../../assets/employee-images/NickSamman-min.jpg";
 import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera-min.jpg";
-
-
-
 
 const people = [
     {
@@ -36,7 +33,7 @@ const people = [
     },
     {
         name: "Wyatt Hoke",
-        position: 'Vice President',
+        position: "Vice President",
         role: "W376889",
         phone: "954-641-2018",
         email: "WYATT@PALMPTS.COM",
@@ -90,14 +87,6 @@ const people = [
         email: "REY@PALMPTS.COM",
         imageUrl: reyLavanderaPic,
         bio: "With over 5 years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential loses. Rey's expertise in plumbing and roof claims has consistently led to successful settlements for his clients. Within our company, he manages a large number of claims, often because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in ths industry.",
-    },
-    {
-        name: "Brandon Vetti",
-        role: "W718570",
-        phone: "561-441-9742",
-        email: "BRANDON@PALMPTS.COM",
-        imageUrl: brandonPic,
-        bio: "Brandon is an experienced state licensed public adjuster who has been with our company since its inception. A graduate from University of Florida, and with a background in home renovations/restorations and a lifelong career of establishing and building relationships with clients. Brandon decided to pursue a career in public adjusting after learning about the industry through a good friend. With his forward thinking, problem solving ability, knowledge, and commitment to making sure clients are made whole through the stressful claims process, Brandon has been able to help residential and commercial clients recover millions of dollars from the insurance companies after their loss.",
     },
     {
         name: "David Milchan",
@@ -156,11 +145,19 @@ const people = [
         bio: "Fletcher is a distinguished Public Adjuster who has notability specialized in managing claims on the West Coast, particularly those arising from the devastation of Hurricane Ian. With a deep commitment to aiding hundreds of affected homeowners, he has been instrumental in navigating the complexities of insurance claims, ensuring rightful compensation and aiding in swift recovery. His extensive experience and unwavering advocacy for policyholders make him a trusted asset, providing unparalleled guidance and support to those seeking to rebuild their lives post-disaster.",
     },
     {
+        name: "Brandon Vetti",
+        role: "W718570",
+        phone: "561-441-9742",
+        email: "BRANDON@PALMPTS.COM",
+        imageUrl: brandonPic,
+        bio: "Brandon is an experienced state licensed public adjuster who has been with our company since its inception. A graduate from University of Florida, and with a background in home renovations/restorations and a lifelong career of establishing and building relationships with clients. Brandon decided to pursue a career in public adjusting after learning about the industry through a good friend. With his forward thinking, problem solving ability, knowledge, and commitment to making sure clients are made whole through the stressful claims process, Brandon has been able to help residential and commercial clients recover millions of dollars from the insurance companies after their loss.",
+    },
+    {
         name: "Sean O'Dell",
         role: "W523470",
         phone: "561-289-6330",
         email: "SEAN@PALMPTS.COM",
-        imageUrl: seanPic,
+        // imageUrl: seanPic,
         bio: "Sean has worked as a public Adjuster since 2017 in both Florida and Texas. He is certified in Xactimate for damage analysis/estimation and holds an FAA license for UAV flight operations to perform complex roof inspections utilizing a drone for high resolution 4k images. Additionally, he specializes in using Matterport technology to generate highly detailed spatial 3D renders of homes and businesses to provide a detailed and accurate estimate of damages. Sean has utilized these tools to achieve the best settlement possible even during litigation in both State and Federal courts.",
     },
     {
@@ -168,7 +165,7 @@ const people = [
         role: "W772871",
         phone: "561-722-9335",
         email: "FRANK@PALMPTS.COM",
-        imageUrl: frankPic,
+        // imageUrl: frankPic,
         bio: "Frank, a Florida native and a distinguished UCF alumnus, leverages his rich background in public adjusting and his family's legacy in the pool construction sector to deliver unparalleled service to our clients. He has adeptly handled and settled some of the largest, often six-figure, residential and commercial claims related to hurricanes, fires, mold, plumbing, and wind. Frank's extensive knowledge and unwavering commitment have established him as a trusted advocate, securing maximal settlements and alleviating the stress of navigating complex claims for our clients.",
     },
     {
@@ -176,7 +173,7 @@ const people = [
         role: "W104067",
         phone: "561-699-9453",
         email: "HAMON@PALMPTS.COM",
-        imageUrl: hamonPic,
+        // imageUrl: hamonPic,
         bio: "Florida native, Hamon earned his B.S. in Accounting from Florida Atlantic University in 2010, launching his career in finance as an administrative bookkeeper. He diversified his experience in roles at Kaplan University and the mortgage sector before specializing in insurance. Acquiring his 2-15 Producer License in 2014, he build a successful agency and substantial client base, focusing on market guidance and long-term services in Health, Life & Annuities. Compelled by witnessing unjust property insurance claims outcomes, he became a certified Public Adjuster in 2020, joining Oakmount to address varied claims effectively across Florida. Hamon is dedicated to ensuring fair representation and comprehensive solutions for homeowners, specializing in overturning denied claims and adept negotiation.",
     },
 ];
@@ -218,12 +215,14 @@ export default function EmployeeStaff() {
                                 onClick={() => openModal(person)}
                                 className="focus:outline-none"
                             >
-                                <img
-                                    className="w-full max-w-xs flex-none rounded-2xl object-cover"
-                                    src={person.imageUrl}
-                                    loading="lazy"
-                                    alt={person.name}
-                                />
+                                {person.imageUrl && (
+                                    <img
+                                        className="w-full max-w-xs flex-none rounded-2xl object-cover"
+                                        src={person.imageUrl}
+                                        loading="lazy"
+                                        alt={person.name}
+                                    />
+                                )}
                                 <div className="mt-4 flex flex-col items-center">
                                     <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
                                         {person.name}
