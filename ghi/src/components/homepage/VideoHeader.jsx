@@ -34,7 +34,7 @@ const VideoHeader = () => {
                     setShowOverlay(false); // Hide the overlay after the new video fades in
                 }, 200); // This should match the fade-in duration
             }, 200); // This should match the fade-out duration
-        }, 10000); // Change video every 10 seconds
+        }, 20000); // Change video every 20 seconds
 
         return () => clearInterval(intervalId);
     }, [videos.length]);
