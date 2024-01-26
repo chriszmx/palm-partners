@@ -42,9 +42,9 @@ const VideoHeader = () => {
                 setFade(false); // Fade in the new video
                 setTimeout(() => {
                     setShowOverlay(false); // Hide the overlay after the new video fades in
-                }, 200); // This should match the fade-in duration
+                }, 300); // This should match the fade-in duration
             }, 200); // This should match the fade-out duration
-        }, 20000); // Change video every 20 seconds
+        }, 25000); // Change video every 20 seconds
 
         return () => clearInterval(intervalId);
     }, [videos.length]);
@@ -125,17 +125,17 @@ const VideoHeader = () => {
         `}
             </style>
 
-  {/* For small screens */}
-  <div className="relative h-120 w-full overflow-hidden video-3d-shadow sm:hidden">
-    <video
-      className="absolute top-0 left-0 w-full h-full object-cover"
-      src={currentVideo}
-      autoPlay
-      loop
-      muted
-      playsInline
-    />
-                    <div className="absolute top-0 left-0 w-full h-full flex items-center justify-left bg-black bg-opacity-25">
+            {/* For small screens */}
+            <div className="relative h-120 w-full overflow-hidden video-3d-shadow sm:hidden">
+                <video
+                    className="absolute top-0 left-0 w-full h-full object-cover"
+                    src={currentVideo}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                />
+                <div className="absolute top-0 left-0 w-full h-full flex items-center justify-left bg-black bg-opacity-25">
                     <div className="text-center p-8">
                         <h1 className="text-white text-6xl font-bold mb-6">
                             PALM PARTNERS
@@ -173,21 +173,21 @@ const VideoHeader = () => {
                         </div>
                     </div>
                 </div>
-  </div>
+            </div>
 
-  {/* For screens sm and above */}
-  <div
-    className="hidden sm:block sm:relative sm:w-full overflow-hidden video-3d-shadow"
-    style={{ paddingTop: "56.25%" }}
-  >
-    <video
-      className="absolute top-0 left-0 w-full h-full object-cover"
-      src={currentVideo}
-      autoPlay
-      loop
-      muted
-      playsInline
-    />
+            {/* For screens sm and above */}
+            <div
+                className="hidden sm:block sm:relative sm:w-full overflow-hidden video-3d-shadow"
+                style={{ paddingTop: "56.25%" }}
+            >
+                <video
+                    className="absolute top-0 left-0 w-full h-full object-cover"
+                    src={currentVideo}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                />
                 {/* Solid color overlay */}
                 <div
                     className={`absolute top-0 left-0 w-full h-full ${
