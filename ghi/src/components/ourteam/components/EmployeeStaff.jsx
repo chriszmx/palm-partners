@@ -3,23 +3,23 @@ import { useState } from "react";
 
 import brandonPic from "../../../assets/employee-images/brandon-vietti-min.jpg";
 // import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
-import fletcherPic from "../../../assets/employee-images/fletcher-liu-min.jpg";
-import michaelMPic from "../../../assets/employee-images/michael-maxtromarino-min.jpg";
-import michaelPic from "../../../assets/employee-images/MichaelCarr-min.jpg";
-import davidPic from "../../../assets/employee-images/david-milchan-min.jpg";
+import fletcherPic from "../../../assets/employee-images/fletcher-liu-min-min.jpg";
+import michaelMPic from "../../../assets/employee-images/michael-maxtromarino-min-min.jpg";
+import michaelPic from "../../../assets/employee-images/MichaelCarr-min-min.jpg";
+import davidPic from "../../../assets/employee-images/david-milchan-min-min.jpg";
 // import seanPic from "../../../assets/employee-images/sean-odell.png";
 import danielPic from "../../../assets/employee-images/daniel-rumfelt-min.jpg";
-import spencerPic from "../../../assets/employee-images/spencer-lee-min.jpg";
+import spencerPic from "../../../assets/employee-images/spencer-lee-min-min.jpg";
 // import frankPic from "../../../assets/employee-images/frank-stallone.png";
-import taylorPic from "../../../assets/employee-images/taylor-banks-min.jpg";
-import treyPic from "../../../assets/employee-images/trey-steinberger-min.jpg";
-import vladPic from "../../../assets/employee-images/vladimir-victor-min.jpg";
-import wyattPic from "../../../assets/employee-images/wyatt-hoke-min.jpg";
-import josephPic from "../../../assets/employee-images/joseph-zaino-min.jpg";
-import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min.jpg";
-import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min.jpg";
-import nickSammanPic from "../../../assets/employee-images/NickSamman-min.jpg";
-import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera-min.jpg";
+import taylorPic from "../../../assets/employee-images/taylor-banks-min-min.jpg";
+import treyPic from "../../../assets/employee-images/trey-steinberger-min-min.jpg";
+import vladPic from "../../../assets/employee-images/vladimir-victor-min-min.jpg";
+import wyattPic from "../../../assets/employee-images/wyatt-hoke-min-min.jpg";
+import josephPic from "../../../assets/employee-images/joseph-zaino-min-min.jpg";
+import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min-min.jpg";
+import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min-min.jpg";
+import nickSammanPic from "../../../assets/employee-images/NickSamman-min-min.jpg";
+import reyLavanderaPic from "../../../assets/employee-images/ReyLavandera-min-min.jpg";
 
 const people = [
     {
