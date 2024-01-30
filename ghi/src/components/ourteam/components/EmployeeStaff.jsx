@@ -29,7 +29,7 @@ const people = [
         phone: "954-641-2018",
         email: "MIKE@PALMPTS.COM",
         imageUrl: michaelPic,
-        bio: "Mike is the proud owner of Palm Partners and has dedicated over 10 years to the property claims industry. He's handled large losses, including high-value properties and commercial claims. Throughout his career, Mike has also grown other public adjusting firms, taking them from just 2 adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong Relationships with insurance companies. His name is well0known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.",
+        bio: "Mike is the proud owner of Palm Partners and has dedicated over 10 years to the property claims industry. He's handled large losses, including high-value properties and commercial claims. Throughout his career, Mike has also grown other public adjusting firms, taking them from just 2 adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong Relationships with insurance companies. His name is well known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.",
     },
     {
         name: "Wyatt Hoke",
