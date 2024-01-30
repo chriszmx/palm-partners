@@ -1,7 +1,7 @@
 import Modal from "./Modal";
 import { useState } from "react";
 
-import brandonPic from "../../../assets/employee-images/brandon-vietti.jpg";
+import brandonPic from "../../../assets/employee-images/brandon-vietti-min.jpg";
 // import hamonPic from "../../../assets/employee-images/hamon-burkhardt.png";
 import fletcherPic from "../../../assets/employee-images/fletcher-liu.jpg";
 import michaelMPic from "../../../assets/employee-images/michael-maxtromarino.jpg";
