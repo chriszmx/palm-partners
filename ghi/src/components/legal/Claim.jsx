@@ -28,12 +28,10 @@ const Claim = () => {
                         the damage occurs.
                     </li>
                     <li>
-                        Document the damage with photos and videos, and make a
-                        list of all damaged or lost items.
+                        Document the damage with photos and videos, and list all damaged or lost items.
                     </li>
                     <li>
-                        Take reasonable steps to mitigate further damage to your
-                        property, if safe to do so.
+                        Take reasonable steps to mitigate further damage to your property if it is safe.
                     </li>
                     <li>
                         Keep records of all communications with your insurance
@@ -48,13 +46,13 @@ const Claim = () => {
                     Our Role as Your Public Adjuster
                 </h2>
                 <p className="text-gray-700 mb-4">
-                    As public adjusters licensed in the state of Florida, we
+                    As public adjusters licensed in Florida, we
                     advocate for you, the policyholder, in appraising and
                     negotiating your insurance claim. Our services include:
                 </p>
                 <ul className="list-disc list-inside mb-4 text-gray-700">
                     <li>
-                        Reviewing your insurance policy to identify all coverage
+                        Review your insurance policy to identify all coverage
                         options.
                     </li>
                     <li>
@@ -77,7 +75,7 @@ const Claim = () => {
                     Understanding Your Policy
                 </h2>
                 <p className="text-gray-700 mb-4">
-                    Insurance policies can be complex and difficult to
+                    Insurance policies can be complex and challenging to
                     interpret. Coverage may vary widely depending on the type of
                     policy and the insurer. It is essential to understand the
                     terms of your policy, including your coverage limits,
@@ -88,13 +86,7 @@ const Claim = () => {
                     Why Choose Palm Partners Public Adjuster?
                 </h2>
                 <p className="text-gray-700 mb-4">
-                    With years of experience in the Florida insurance industry,
-                    our team has the knowledge and expertise to handle claims
-                    for all types of property damage, including hurricanes,
-                    floods, fires, and more. We work exclusively for you, not
-                    the insurance company, to ensure that your interests are
-                    represented and that you receive the compensation you
-                    deserve.
+                    With years of experience in the Florida insurance industry, our team has the knowledge and expertise to handle claims for all types of property damage, including hurricanes, floods, fires, and more. We work exclusively for you, not the insurance company, to ensure your interests are represented, and you receive the compensation you deserve.
                 </p>
                 <h2 className="text-2xl font-semibold mb-3">
                     Contact Us for a Consultation
