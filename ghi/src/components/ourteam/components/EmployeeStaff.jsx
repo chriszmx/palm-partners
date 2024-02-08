@@ -182,7 +182,7 @@ const people = [
         email: "DANIEL@PALMPTS.COM",
         imageUrl: danielPic,
         imageUrlLarge: danielPicLarge,
-        bio: "With his background in home renovations, Daniel has been extremely successful in recovering money for new roofs, and plumbing claims. As a successful adjuster he demonstrates a passion for helping others with professionalism. Daniel is there when you nee him the most.",
+        bio: "With his background in home renovations, Daniel has been extremely successful in recovering money for new roofs, and plumbing claims. As a successful adjuster he demonstrates a passion for helping others with professionalism. Daniel is there when you need him the most.",
     },
     {
         name: "Fletcher Liu",
