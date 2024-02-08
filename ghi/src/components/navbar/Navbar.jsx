@@ -203,9 +203,11 @@ const services = [
 ];
 
 const callsToAction = [
-    { name: "Watch demo", href: "#", icon: PlayCircleIcon },
+    // { name: "", href: "#", icon: PlayCircleIcon },
+    { name: "Our Team", href: "/our-team", icon: UserGroupIcon },
     { name: "Contact Us", href: "/contact-us", icon: PhoneIcon },
-    { name: "View all products", href: "#", icon: RectangleGroupIcon },
+    // { name: "", href: "#", icon: RectangleGroupIcon },
+    { name: "Claim", href: "/claim", icon: RectangleGroupIcon },
 ];
 
 function classNames(...classes) {
