@@ -92,7 +92,7 @@ const people = [
         email: "KEYAN@PALMPTS.COM",
         imageUrl: keyanHasseliPic,
         imageUrlLarge: keyanHasseliPicLarge,
-        bio: "",
+        bio: "Keyan is a dedicated Public Adjuster at Palm Partners. He brings expertise in claim negotiations and getting the claimants what they are owed. Throughout his career, He's volunteered at children's hospitals around the country and organized successful charity events and fundraisers showcasing his commitment to the service of others. Passionate about going above and beyond, he strives for execution. Certified in Public Adjusting, Keyan is a key to Palm Partners' continued growth and innovation.",
     },
     {
         name: "Nick Samman",
