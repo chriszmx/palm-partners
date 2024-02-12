@@ -83,7 +83,7 @@ const people = [
         email: "DIEGO@PALMPTS.COM",
         imageUrl: diegoSenaPic,
         imageUrlLarge: diegoSenaPicLarge,
-        bio: "",
+        bio: "Diego Sena is a licensed public adjuster, bringing a wealth of experience from the dynamic world of the hospitality industry. With a proven track record in managing hotels and restaurants, Diego seamlessly transitioned into the role of a licensed public adjuster. His expertise extends beyond traditional roles, bringing a keen understanding of property-related challenges. Diego is also a certified mixologist, adding a creative touch to his versatile skill set. Fluent in Portuguese, English, and Spanish, he excels in communication and negotiation. Diego's commitment to excellence, client satisfaction, and multicultural proficiency make him a trusted professional and a valuable asset in navigating the complexities of insurance claims and property management.",
     },
     {
         name: "Keyan Hasseli",
