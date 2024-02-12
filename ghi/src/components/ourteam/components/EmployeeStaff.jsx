@@ -101,7 +101,7 @@ const people = [
         email: "NICK@PALMPTS.COM",
         imageUrl: nickSammanPic,
         imageUrlLarge: nickSammanPicLarge,
-        bio: "",
+        bio: "Nick is a Daytona Beach native and Public Adjuster in Florida. Serving as a dedicated Firefighter/Paramedic in West Palm Beach, Nick also holds a B.S. in Finance from the University of Florida, seamlessly blending financial acumen with a passion for serving the community. With expertise in Damage Assessment for residential properties, Nick is your go-to advocate for navigating residential property damage claims. Trusted and committed, Nick stands ready to assist fellow Floridians in their journey to recovery.",
     },
     {
         name: "Vladimir Victor",
