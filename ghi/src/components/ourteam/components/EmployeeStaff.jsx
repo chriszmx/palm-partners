@@ -46,8 +46,6 @@ import josephPicLarge from "../../../assets/employee-images/joseph-zaino-min.jpg
 import diegoSenaPic from "../../../assets/employee-images/DiegoSena0017-min-min.jpg";
 import diegoSenaPicLarge from "../../../assets/employee-images/DiegoSena0017-min.jpg";
 
-import keyanHasseliPic from "../../../assets/employee-images/KeyanHasseli-min-min.jpg";
-import keyanHasseliPicLarge from "../../../assets/employee-images/KeyanHasseli-min.jpg";
 
 import nickSammanPic from "../../../assets/employee-images/NickSamman-min-min.jpg";
 import nickSammanPicLarge from "../../../assets/employee-images/NickSamman-min.jpg";
@@ -83,15 +81,6 @@ const people = [
         email: "DIEGO@PALMPTS.COM",
         imageUrl: diegoSenaPic,
         imageUrlLarge: diegoSenaPicLarge,
-        bio: "",
-    },
-    {
-        name: "Keyan Hasseli",
-        role: "",
-        phone: "954-641-2018",
-        email: "KEYAN@PALMPTS.COM",
-        imageUrl: keyanHasseliPic,
-        imageUrlLarge: keyanHasseliPicLarge,
         bio: "",
     },
     {
