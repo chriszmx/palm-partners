@@ -62,7 +62,7 @@ const people = [
         email: "MIKE@PALMPTS.COM",
         imageUrl: michaelPic,
         imageUrlLarge: michaelPicLarge,
-        bio: "Mike is the proud owner of Palm Partners and has dedicated over 10 years to the property claims industry. He's handled large losses, including high-value properties and commercial claims. Throughout his career, Mike has also grown other public adjusting firms, taking them from just 2 adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong Relationships with insurance companies. His name is well known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.",
+        bio: "Mike is the proud owner of Palm Partners and has dedicated over ten years to the property claims industry. He's handled significant losses, including high-value properties and commercial claims. Mike has also grown other public adjusting firms throughout his career, taking them from just two adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong relationships with insurance companies. His name is well known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.",
     },
     {
         name: "Wyatt Hoke",
@@ -72,7 +72,7 @@ const people = [
         email: "WYATT@PALMPTS.COM",
         imageUrl: wyattPic,
         imageUrlLarge: wyattPicLarge,
-        bio: "Wyatt is a seasoned state Public Adjuster, bringing over 7 years of industry experience, specializing in managing some of the largest claims in South Florida. A Finance graduate from FAU, he has adeptly represented and adjusted a myriad of both residential and commercial claims, focusing on delivering outstanding results for every client. Wyatt is deeply committed to alleviating the burden his clients face in trying times, exploring every viable avenue of recovery to ensure maximum compensation. This allows his clients the peace of mind to concentrate on rebuilding and progressing. His dedication and unparalleled drive to advocate on behalf of his clients set him apart in the field, exemplifying a relentless pursuit for their well-being and satisfaction.",
+        bio: "Wyatt is a seasoned state Public Adjuster, bringing over seven years of industry experience, specializing in managing some of the most extensive claims in South Florida. A Finance graduate from FAU, he has adeptly represented and adjusted many residential and commercial claims, focusing on delivering outstanding results for every client. Wyatt is deeply committed to alleviating his clients' burden in trying times, exploring every viable avenue of recovery to ensure maximum compensation, and allowing his clients the peace of mind to concentrate on rebuilding and progressing. His dedication and unparalleled drive to advocate for his clients set him apart, exemplifying a relentless pursuit of their well-being and satisfaction.",
     },
     {
         name: "Diego Sena",
@@ -81,7 +81,7 @@ const people = [
         email: "DIEGO@PALMPTS.COM",
         imageUrl: diegoSenaPic,
         imageUrlLarge: diegoSenaPicLarge,
-        bio: "",
+        bio: "Diego Sena is a licensed public adjuster, bringing a wealth of experience from the dynamic world of the hospitality industry. With a proven track record in managing hotels and restaurants, Diego seamlessly transitioned into the role of a licensed public adjuster. His expertise extends beyond traditional roles, bringing a keen understanding of property-related challenges. Diego is also a certified mixologist, adding a creative touch to his versatile skill set. Fluent in Portuguese, English, and Spanish, he excels in communication and negotiation. Diego's commitment to excellence, client satisfaction, and multicultural proficiency make him a trusted professional and a valuable asset in navigating the complexities of insurance claims and property management.",
     },
     {
         name: "Nick Samman",
@@ -90,7 +90,7 @@ const people = [
         email: "NICK@PALMPTS.COM",
         imageUrl: nickSammanPic,
         imageUrlLarge: nickSammanPicLarge,
-        bio: "",
+        bio: "Nick is a Daytona Beach native and Public Adjuster in Florida. Serving as a dedicated Firefighter/Paramedic in West Palm Beach, Nick also holds a B.S. in Finance from the University of Florida, seamlessly blending financial acumen with a passion for serving the community. With expertise in Damage Assessment for residential properties, Nick is your go-to advocate for navigating residential property damage claims. Trusted and committed, Nick stands ready to assist fellow Floridians in their journey to recovery.",
     },
     {
         name: "Vladimir Victor",
@@ -99,7 +99,7 @@ const people = [
         email: "VLAD@PALMPTS.COM",
         imageUrl: vladPic,
         imageUrlLarge: vladPicLarge,
-        bio: "Vladimir, one of our lead network adjusters, has consistently showcased his adeptness in handling property claims with remarkable efficiency. He maintains one of the highest success rates in property settlements within our team, testament to his skill and dedication. Vladimir's adept handling extends to a broad spectrum of property damage cases encompassing plumbing, roofing, fire, and flood-related incidents bringing in-dept expertise to these nuanced areas. His rich background in the insurance sector has seamlessly transitioned into his role as a public adjuster, ensuring that he approaches each claim with a holistic understanding and a client-focused perspective.",
+        bio: "Vladimir, one of our lead network adjusters, has consistently showcased his adeptness in handling property claims with remarkable efficiency. He maintains one of our team's highest success rates in property settlements, a testament to his skill and dedication. Vladimir's adept handling extends to a broad spectrum of property damage cases encompassing plumbing, roofing, fire, and flood-related incidents, bringing in-depth expertise to these nuanced areas. His rich background in the insurance sector has seamlessly transitioned into his role as a public adjuster, ensuring that he approaches each claim with a holistic understanding and a client-focused perspective.",
     },
     {
         name: "Trey Steinberger",
@@ -108,7 +108,7 @@ const people = [
         email: "TREY@PALMPTS.COM",
         imageUrl: treyPic,
         imageUrlLarge: treyPicLarge,
-        bio: "Trey comes from a lineage of excellence in construction, with his father being a renowned high-end builder overseeing projects valued at over $10 million. While Trey proudly serves as a firefighter, he also possesses an innate understanding of the construction industry, having spent significant time working alongside his family on upscale projects. His expertise extends to managing property claims for the firm, where he boasts one of the swiftest settlement turnaround times. Trey's proficiency encompasses both residential and commercial claims, making him an invaluable asset to the team.",
+        bio: "Trey comes from a family background of excellence in construction. His father is a renowned high-end builder overseeing over $10 million in projects. Though Trey serves as a firefighter, he also has a natural understanding of the construction industry because he has spent significant time working alongside his family on upscale projects. Trey is an expert in managing the firm's property claims and is known for having one of the swiftest settlement turnaround times. He can handle residential and commercial claims with equal proficiency, making him an invaluable asset to the team. Residential and commercial claims, making him a valuable asset to the team.",
     },
     {
         name: "Reynel Lavandera",
@@ -117,7 +117,7 @@ const people = [
         email: "REY@PALMPTS.COM",
         imageUrl: reyLavanderaPic,
         imageUrlLarge: reyLavanderaPicLarge,
-        bio: "With over 5 years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential loses. Rey's expertise in plumbing and roof claims has consistently led to successful settlements for his clients. Within our company, he manages a large number of claims, often because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in ths industry.",
+        bio: "With over five years in the property sector, Rey has gained valuable experience, especially as a lead manager at one of Florida's largest restoration firms. He's tackled everything from major commercial cases to individual residential losses. Rey's plumbing and roof claims expertise has consistently led to successful settlements for his clients. He often manages many claims within our company because clients keep recommending him based on their positive experiences. His standout performance is making him a known figure in the industry.",
     },
     {
         name: "David Milchan",
@@ -126,7 +126,7 @@ const people = [
         email: "DAVID@PALMPTS.COM",
         imageUrl: davidPic,
         imageUrlLarge: davidPicLarge,
-        bio: "David is a South Florida native with a background in Territory Management and Claims Processing. He is one of our Senior Adjusters and 2023 Marks 6 years as a full time licensed Public Adjuster. David has handled small and large scale commercial and residential claims across the state, from Pensacola to Miami and everywhere in between. He handles damages from hurricane, windstorm, hail, water, mold, flood, and fre claims. With an obsession to do the job right and address all areas of the policy and property. David takes pride in his settlement results and leaving clients satisfied. Insurance companies don't disrespect policyholders when David is around!",
+        bio: "David is a South Florida native with a Territory Management and Claims Processing background. He is one of our Senior Adjusters, and 2023 Marks 6 years as a full-time licensed Public Adjuster. David has handled small and large-scale commercial and residential claims across the state, from Pensacola to Miami and everywhere. He holds damages from hurricanes, windstorms, hail, water, mold, floods, and fire claims, with an obsession to do the job right and address all areas of the policy and property. David takes pride in his settlement results and leaving clients satisfied. Insurance companies don't disrespect policyholders when David is around!",
     },
     {
         name: "Taylor Banks",
@@ -135,7 +135,7 @@ const people = [
         email: "TAYLOR@PALMPTS.COM",
         imageUrl: taylorPic,
         imageUrlLarge: taylorPicLarge,
-        bio: "Taylor is one of our most experienced adjusters with settling hundreds of claims resulting in millions of dollars recovered for homeowners. Whether it is a plumbing, fire, or hurricane claim. He has the knowledge to help you get what you deserve. He specializes in commercial claims and large losses. With a background in Finance and a Bachelor's degree from the University of Central Florida, Taylor Joined our team to help make a difference for our clients.",
+        bio: "Taylor is one of our most experienced adjusters, settling hundreds of claims resulting in millions of dollars recovered for homeowners. Whether it is a plumbing, fire, or hurricane claim, he has the knowledge to help you get what you deserve. He specializes in commercial claims and significant losses. With a background in Finance and a Bachelor's degree from the University of Central Florida, Taylor Joined our team to help make a difference for our clients.",
     },
     {
         name: "Joseph Zaino",
@@ -144,7 +144,7 @@ const people = [
         email: "JOEY@PALMPTS.COM",
         imageUrl: josephPic,
         imageUrlLarge: josephPicLarge,
-        bio: "A seasoned Public Adjuster with over a decade of experience in the insurance industry. Joseph holds both a 320 Public Adjusting license and a 220 All Lines licenses. Graduating with honors in Communications from Florida International University, he leverages his academic background, industry training, and knowledge to expertly analyze policies, ensuring clients receive maximum compensation. Joseph has successfully recovered millions in insurance claims funds, handling a wide range of issues, from catastrophic events like hurricanes to common problems like fires and leaks. His commitment involves guiding clients through various claim scenarios, including but not limited to underfunded, denied, and delayed claims. This achieved with a focus on preserving policy rights for a secure financial recovery in the face of unexpected events.",
+        bio: "Joseph is a seasoned Public Adjuster with over a decade of experience in the insurance industry. Joseph holds a 320 Public Adjusting license and a 220 All Lines license. After graduating with honors in Communications from Florida International University, he leverages his academic background, industry training, and knowledge to analyze policies expertly, ensuring clients receive maximum compensation. Joseph has successfully recovered millions in insurance claims funds, handling various issues, from catastrophic events like hurricanes to common problems like fires and leaks. His commitment involves guiding clients through different claim scenarios, including but not limited to underfunded, denied, and delayed claims. He achieved this by focusing on preserving policy rights for a secure financial recovery in the face of unexpected events.",
     },
     {
         name: "Spencer Lee",
@@ -153,7 +153,7 @@ const people = [
         email: "SPENCER@PALMPTS.COM",
         imageUrl: spencerPic,
         imageUrlLarge: spencerPicLarge,
-        bio: "As a former Director of operations for Castle Group, Spencer brings a unique property management expertise to the commercial claims division. He has a proven track record for assisting community associations and property managers with a navigating the complex claims process from start to finish. Spencer values customer service and specializes in managers, Board of Directors, and residential homeowners with storm, roof, and plumbing damage.",
+        bio: "As a former Director of operations for Castle Group, Spencer brings a unique property management expertise to the commercial claims division. He has a proven track record for assisting community associations and property managers with navigating the complex claims process from start to finish. Spencer values customer service and specializes in managers, the Board of Directors, and residential homeowners with storm, roof, and plumbing damage.",
     },
     {
         name: "Michael Maxtromarino",
@@ -162,7 +162,7 @@ const people = [
         email: "MIKE.M@PALMPTS.COM",
         imageUrl: michaelMPic,
         imageUrlLarge: michaelMPicLarge,
-        bio: "Mike, a seasoned Public Adjuster and UCF graduate, brings a wealth of expertise from his dual roles in managing and settling substantial residential and commercial claims, often exceeding six figures, spanning various damages including hurricanes, fires, mold, plumbing, and wind. His comprehensive understanding of the property industry has proven track record in securing significant settlements make him a pivotal asset in advocating for our clients rights and ensuring optimal outcomes.",
+        bio: "Mike, a seasoned Public Adjuster and UCF graduate, brings a wealth of expertise from his dual roles in managing and settling substantial residential and commercial claims, often exceeding six figures, spanning various damages, including hurricanes, fires, mold, plumbing, and wind. His comprehensive understanding of the property industry and proven track record in securing significant settlements make him a pivotal asset in advocating for our client's rights and ensuring optimal outcomes.",
     },
     {
         name: "Daniel Rumfelt",
@@ -171,7 +171,7 @@ const people = [
         email: "DANIEL@PALMPTS.COM",
         imageUrl: danielPic,
         imageUrlLarge: danielPicLarge,
-        bio: "With his background in home renovations, Daniel has been extremely successful in recovering money for new roofs, and plumbing claims. As a successful adjuster he demonstrates a passion for helping others with professionalism. Daniel is there when you nee him the most.",
+        bio: "With his background in home renovations, Daniel has successfully recovered money for new roofs and plumbing claims. As a successful adjuster, he demonstrates a passion for helping others professionally. Daniel is there when you need him the most.",
     },
     {
         name: "Fletcher Liu",
@@ -180,7 +180,7 @@ const people = [
         email: "FLETCHER@PALMPTS.COM",
         imageUrl: fletcherPic,
         imageUrlLarge: fletcherPicLarge,
-        bio: "Fletcher is a distinguished Public Adjuster who has notability specialized in managing claims on the West Coast, particularly those arising from the devastation of Hurricane Ian. With a deep commitment to aiding hundreds of affected homeowners, he has been instrumental in navigating the complexities of insurance claims, ensuring rightful compensation and aiding in swift recovery. His extensive experience and unwavering advocacy for policyholders make him a trusted asset, providing unparalleled guidance and support to those seeking to rebuild their lives post-disaster.",
+        bio: "Fletcher is a distinguished public adjuster with notability specializing in managing claims on the West Coast, particularly those arising from the devastation of Hurricane Ian. With a deep commitment to aiding hundreds of affected homeowners, he has been instrumental in navigating the complexities of insurance claims, ensuring rightful compensation, and assisting in swift recovery. His extensive experience and unwavering advocacy for policyholders make him a trusted asset, providing unparalleled guidance and support to those seeking to rebuild their lives post-disaster.",
     },
     {
         name: "Brandon Vetti",
@@ -189,7 +189,7 @@ const people = [
         email: "BRANDON@PALMPTS.COM",
         imageUrl: brandonPic,
         imageUrlLarge: brandonPicLarge,
-        bio: "Brandon is an experienced state licensed public adjuster who has been with our company since its inception. A graduate from University of Florida, and with a background in home renovations/restorations and a lifelong career of establishing and building relationships with clients. Brandon decided to pursue a career in public adjusting after learning about the industry through a good friend. With his forward thinking, problem solving ability, knowledge, and commitment to making sure clients are made whole through the stressful claims process, Brandon has been able to help residential and commercial clients recover millions of dollars from the insurance companies after their loss.",
+        bio: "Brandon has been our company's experienced state-licensed public adjuster since its inception. He is a graduate of the University of Florida with a background in home renovations/restorations and a lifelong career establishing and building client relationships. Brandon decided to pursue a career in public adjusting after learning about the industry through a good friend. With his forward-thinking, problem-solving ability, knowledge, and commitment to making sure clients are made whole through the stressful claims process, Brandon has been able to help residential and commercial clients recover millions of dollars from insurance companies after their losses.",
     },
     {
         name: "Sean O'Dell",
@@ -198,7 +198,7 @@ const people = [
         email: "SEAN@PALMPTS.COM",
         // imageUrl: seanPic,
         imageUrlLarge: seanPic,
-        bio: "Sean has worked as a public Adjuster since 2017 in both Florida and Texas. He is certified in Xactimate for damage analysis/estimation and holds an FAA license for UAV flight operations to perform complex roof inspections utilizing a drone for high resolution 4k images. Additionally, he specializes in using Matterport technology to generate highly detailed spatial 3D renders of homes and businesses to provide a detailed and accurate estimate of damages. Sean has utilized these tools to achieve the best settlement possible even during litigation in both State and Federal courts.",
+        bio: "Sean has worked as a public Adjuster since 2017 in both Florida and Texas. He is certified in Xactimate for damage analysis/estimation and holds an FAA license for UAV flight operations to perform complex roof inspections utilizing a drone for high-resolution 4k images. Additionally, he specializes in using Matterport technology to generate highly detailed spatial 3D renders of homes and businesses to provide a precise and accurate estimate of damages. Sean has utilized these tools to achieve the best settlement possible, even during litigation in both State and Federal courts.",
     },
     {
         name: "Frank Stallone",
@@ -216,7 +216,7 @@ const people = [
         email: "HAMON@PALMPTS.COM",
         // imageUrl: hamonPic,
         imageUrlLarge: hamonPic,
-        bio: "Florida native, Hamon earned his B.S. in Accounting from Florida Atlantic University in 2010, launching his career in finance as an administrative bookkeeper. He diversified his experience in roles at Kaplan University and the mortgage sector before specializing in insurance. Acquiring his 2-15 Producer License in 2014, he build a successful agency and substantial client base, focusing on market guidance and long-term services in Health, Life & Annuities. Compelled by witnessing unjust property insurance claims outcomes, he became a certified Public Adjuster in 2020, joining Oakmount to address varied claims effectively across Florida. Hamon is dedicated to ensuring fair representation and comprehensive solutions for homeowners, specializing in overturning denied claims and adept negotiation.",
+        bio: "Florida native Hamon earned his B.S. in Accounting from Florida Atlantic University in 2010, launching his career in finance as an administrative bookkeeper. He diversified his experience in roles at Kaplan University and the mortgage sector before specializing in insurance and acquiring his 2-15 Producer License in 2014, building a successful agency and substantial client base, focusing on market guidance and long-term services in Health, Life, & Annuities. Compelled by witnessing unjust property insurance claims outcomes, he became a certified Public Adjuster in 2020, joining Oakmount to address varied claims effectively across Florida. He is dedicated to ensuring fair representation and comprehensive solutions for homeowners, specializing in overturning denied claims and adept negotiation.",
     },
 ];
 
@@ -239,7 +239,7 @@ export default function EmployeeStaff() {
                         Meet our leadership
                     </h2>
                     <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-6 sm:text-lg lg:text-xl">
-                        We’re a dynamic group of individuals who are passionate
+                        We’re a dynamic group of individuals passionate
                         about what we do and dedicated to delivering the best
                         results for our clients.
                     </p>
