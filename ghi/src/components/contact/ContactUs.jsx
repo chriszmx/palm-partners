@@ -28,7 +28,7 @@ export default function ContactForm() {
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault(); // Prevent the default form submission
+        e.preventDefault();
 
         try {
             const htmlContent = `
@@ -94,7 +94,7 @@ export default function ContactForm() {
 `;
 
             await addDoc(collection(db, "mail"), {
-                to: ["c.r.zambito@gmail.com"],
+                to: ["mike@palmpts.com"],
                 message: {
                     subject: "New Message from Palm Partners Contact Form",
                     text: `Name: ${formData.firstName} ${formData.lastName}, Message: ${formData.message}, Phone: ${formData.phoneNumber}, Email: ${formData.email}`,
@@ -115,7 +115,7 @@ export default function ContactForm() {
             });
         } catch (error) {
             toast.error("Error submitting message. Please try again later.");
-            console.error("Error adding document: ", error); // Handle error
+            console.error("Error adding document: ", error);
         }
     };
 
