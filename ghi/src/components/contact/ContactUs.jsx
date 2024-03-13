@@ -1,10 +1,124 @@
+import { useState } from "react";
+import { db } from "../../firebase";
+import { collection, addDoc } from "firebase/firestore";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import {
     BuildingOffice2Icon,
     EnvelopeIcon,
     PhoneIcon,
 } from "@heroicons/react/24/outline";
 
-export default function Example() {
+export default function ContactForm() {
+    const [formData, setFormData] = useState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phoneNumber: "",
+        message: "",
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({
+            ...prev,
+            [name]: value,
+        }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault(); // Prevent the default form submission
+
+        try {
+            const htmlContent = `
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            font-size: 22px;
+            color: #4A90E2;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content {
+            line-height: 1.6;
+        }
+        .signature {
+            margin-top: 20px;
+            font-style: italic;
+            color: #888;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">New Message from Palm Partners Contact Form 🎉</div>
+        <div class="content">
+            <strong>Name:</strong> ${formData.firstName} ${formData.lastName}<br/>
+            <strong>Message:</strong> ${formData.message}<br/>
+            <strong>Phone:</strong> ${formData.phoneNumber}<br/>
+            <strong>Email:</strong> ${formData.email}<br/>
+        </div>
+        <div class="signature">
+            - Palm Partners Team
+        </div>
+        <div class="footer">
+            Brought to you by Palm Partners' secret weapon: your favorite developer (who might just be a wizard in disguise). 🧙‍♂️✨
+        </div>
+    </div>
+</body>
+</html>
+`;
+
+            await addDoc(collection(db, "mail"), {
+                to: ["c.r.zambito@gmail.com"],
+                message: {
+                    subject: "New Message from Palm Partners Contact Form",
+                    text: `Name: ${formData.firstName} ${formData.lastName}, Message: ${formData.message}, Phone: ${formData.phoneNumber}, Email: ${formData.email}`,
+                    html: htmlContent,
+                },
+            });
+
+            toast.success(
+                "Message successfully submitted! We will get back to you as soon as possible."
+            );
+            console.log("Document successfully written!");
+            setFormData({
+                firstName: "",
+                lastName: "",
+                email: "",
+                phoneNumber: "",
+                message: "",
+            });
+        } catch (error) {
+            toast.error("Error submitting message. Please try again later.");
+            console.error("Error adding document: ", error); // Handle error
+        }
+    };
+
     return (
         <div className="relative isolate bg-white">
             <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -58,8 +172,12 @@ export default function Example() {
                             Get in touch
                         </h2>
                         <p className="mt-6 text-md leading-8 text-gray-600">
-                            At Palm Partners, we're dedicated to helping you navigate through the complexities of insurance claims.
-                            Whether you've suffered from property damage due to storms, fire, water, or other unforeseen events, our experienced team is here to advocate for your best interests.
+                            At Palm Partners, we're dedicated to helping you
+                            navigate through the complexities of insurance
+                            claims. Whether you've suffered from property damage
+                            due to storms, fire, water, or other unforeseen
+                            events, our experienced team is here to advocate for
+                            your best interests.
                         </p>
                         <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                             <div className="flex gap-x-4">
@@ -115,6 +233,7 @@ export default function Example() {
                         </dl>
                     </div>
                 </div>
+
                 <form
                     action="#"
                     method="POST"
@@ -132,9 +251,11 @@ export default function Example() {
                                 <div className="mt-2.5">
                                     <input
                                         type="text"
-                                        name="first-name"
+                                        name="firstName"
                                         id="first-name"
                                         autoComplete="given-name"
+                                        value={formData.firstName}
+                                        onChange={handleChange}
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -149,9 +270,11 @@ export default function Example() {
                                 <div className="mt-2.5">
                                     <input
                                         type="text"
-                                        name="last-name"
+                                        name="lastName"
                                         id="last-name"
                                         autoComplete="family-name"
+                                        value={formData.lastName}
+                                        onChange={handleChange}
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -169,6 +292,8 @@ export default function Example() {
                                         name="email"
                                         id="email"
                                         autoComplete="email"
+                                        value={formData.email}
+                                        onChange={handleChange}
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -183,9 +308,11 @@ export default function Example() {
                                 <div className="mt-2.5">
                                     <input
                                         type="tel"
-                                        name="phone-number"
+                                        name="phoneNumber"
                                         id="phone-number"
                                         autoComplete="tel"
+                                        value={formData.phoneNumber}
+                                        onChange={handleChange}
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -201,9 +328,11 @@ export default function Example() {
                                     <textarea
                                         name="message"
                                         id="message"
+                                        value={formData.message}
+                                        onChange={handleChange}
                                         rows={4}
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                                        defaultValue={""}
+                                        // defaultValue={""}
                                     />
                                 </div>
                             </div>
@@ -211,6 +340,7 @@ export default function Example() {
                         <div className="mt-8 flex justify-end">
                             <button
                                 type="submit"
+                                onClick={handleSubmit}
                                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                                 Send message
@@ -219,6 +349,7 @@ export default function Example() {
                     </div>
                 </form>
             </div>
+            <ToastContainer />
         </div>
     );
 }
