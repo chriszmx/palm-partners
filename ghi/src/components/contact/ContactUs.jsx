@@ -3,6 +3,7 @@ import { db } from "../../firebase";
 import { collection, addDoc } from "firebase/firestore";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from "react-helmet";
 
 import {
     BuildingOffice2Icon,
@@ -121,6 +122,20 @@ export default function ContactForm() {
 
     return (
         <div className="relative isolate bg-white">
+            <Helmet>
+                <script type="application/ld+json">
+                    {`
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "Organization",
+                            "name": "Palm Partners",
+                            "alternateName": "PalmPTS",
+                            "url": "https://palmpts.com/",
+                            "logo": "https://palmpts.com/assets/Palm-Partners-transparent-cropped-rsDK4GZe.png",
+                        }
+                        `}
+                </script>
+            </Helmet>
             <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
                 <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
                     <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
