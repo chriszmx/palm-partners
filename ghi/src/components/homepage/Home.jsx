@@ -34,7 +34,7 @@ const Home = () => {
                         }
                         `}
                 </script>
-
+                        {/* <!-- FAQ Schema --> */}
                 <script type="application/ld+json">
                     {`
                         {
