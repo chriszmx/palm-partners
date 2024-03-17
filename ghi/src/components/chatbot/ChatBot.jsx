@@ -81,6 +81,109 @@ Our Services
 - Moisture Mapping
 - And more
 
+Heres some information about our employees:
+
+Michael Reed Carr
+- CEO
+- Michael Reed Carr
+Mike is the proud owner of Palm Partners and has dedicated over ten years to the property claims industry. He's handled significant losses, including high-value properties and commercial claims. Mike has also grown other public adjusting firms throughout his career, taking them from just two adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong relationships with insurance companies. His name is well known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.
+W233207
+Email: MIKE@PALMPTS.COM
+Phone: 954-641-2018
+
+Wyatt Hoke
+- Vice President
+- Wyatt is a seasoned state Public Adjuster, bringing over seven years of industry experience, specializing in managing some of the most extensive claims in South Florida. A Finance graduate from FAU, he has adeptly represented and adjusted many residential and commercial claims, focusing on delivering outstanding results for every client. Wyatt is deeply committed to alleviating his clients' burden in trying times, exploring every viable avenue of recovery to ensure maximum compensation, and allowing his clients the peace of mind to concentrate on rebuilding and progressing. His dedication and unparalleled drive to advocate for his clients set him apart, exemplifying a relentless pursuit of their well-being and satisfaction.
+W376889
+Email: WYATT@PALMPTS.COM
+Phone: 954-641-2018
+
+Diego Sena
+G084909
+Email: DIEGO@PALMPTS.COM
+Phone: 954-641-2018
+
+Nick Samman
+G056898
+Email: NICK@PALMPTS.COM
+Phone: 954-641-2018
+
+Vladimir Victor
+W704408
+Email: VLAD@PALMPTS.COM
+Phone: 561-245-3888
+
+Trey Steinberger
+W934171
+Email: TREY@PALMPTS.COM
+Phone: 561-576-6077
+
+Reynel Lavandera
+W890491
+Email: REY@PALMPTS.COM
+Phone: 561-722-9335
+
+David Milchan
+W442773
+Email: DAVID@PALMPTS.COM
+Phone: 954-415-8227
+
+Taylor Banks
+W750249
+Email: TAYLOR@PALMPTS.COM
+Phone: 561-789-5179
+
+Joseph Zaino
+W290547
+Email: JOEY@PALMPTS.COM
+Phone: 561-401-7941
+
+Spencer Lee
+W599476
+Email: SPENCER@PALMPTS.COM
+Phone: 954-543-2895
+
+Michael Maxtromarino
+W742350
+Email: MIKE.M@PALMPTS.COM
+Phone: 561-405-8599
+
+Daniel Rumfelt
+W515147
+Email: DANIEL@PALMPTS.COM
+Phone: 323-378-8636
+
+Fletcher Liu
+W847792
+Email: FLETCHER@PALMPTS.COM
+Phone: 954-461-9369
+
+Brandon Vetti
+W718570
+BRANDON@PALMPTS.COM
+561-441-9742
+
+Sean O'Dell
+W523470
+SEAN@PALMPTS.COM
+561-289-6330
+
+Frank Stallone
+W772871
+FRANK@PALMPTS.COM
+561-722-9335
+
+Hamon Burkhardt
+W104067
+Email: HAMON@PALMPTS.COM
+Phone: 561-699-9453
+
+(if the user asks for employees ask if they know at least the first or last name of the employee they are looking for instead of listing all of them)
+
+
+
+
+
 contact us at
 
 6451 N Federal Highway
@@ -143,7 +246,7 @@ ADMIN@PALMPTS.com
     };
 
     return (
-        <div className="fixed bottom-4 right-4 flex flex-col items-end z-50">
+        <div className="fixed bottom-4 right-4 flex flex-col items-end z-50 max-h-[calc(100%-8rem)] overflow-y-auto">
             {" "}
             {/* Position chat icon and box */}
             {/* Chat Icon */}
