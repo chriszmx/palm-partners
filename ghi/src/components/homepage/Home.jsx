@@ -9,6 +9,8 @@ import ContactToday from "./components/ContactToday";
 import Reviews from "./components/Reviews";
 import { Helmet } from "react-helmet";
 
+// import ChatBot from "../chatbot/ChatBot";
+
 const Home = () => {
     return (
         <div>
@@ -126,6 +128,8 @@ const Home = () => {
                         `}
                 </script>
             </Helmet>
+
+            {/* <ChatBot /> */}
 
             <VideoHeader />
             <ChoosePalmPartners />

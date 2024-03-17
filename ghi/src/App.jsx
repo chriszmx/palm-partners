@@ -31,12 +31,14 @@ import Mediation from './components/services/Mediation';
 import Privacy from './components/legal/Privacy';
 import Terms from './components/legal/Terms';
 import Claim from './components/legal/Claim';
+import ChatBot from './components/chatbot/ChatBot';
 
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ChatBot />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<ContactUs />} />
