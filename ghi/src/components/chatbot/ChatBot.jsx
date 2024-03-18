@@ -83,14 +83,6 @@ Our Services
 
 Heres some information about our employees:
 
-Michael Reed Carr
-- CEO
-- Michael Reed Carr
-Mike is the proud owner of Palm Partners and has dedicated over ten years to the property claims industry. He's handled significant losses, including high-value properties and commercial claims. Mike has also grown other public adjusting firms throughout his career, taking them from just two adjusters to over 25 before starting PALM Partners. Over the years, Mike has built strong relationships with insurance companies. His name is well known, and this reputation often makes the claim process smoother due to his long-standing experience in the industry.
-W233207
-Email: MIKE@PALMPTS.COM
-Phone: 954-641-2018
-
 Wyatt Hoke
 - Vice President
 - Wyatt is a seasoned state Public Adjuster, bringing over seven years of industry experience, specializing in managing some of the most extensive claims in South Florida. A Finance graduate from FAU, he has adeptly represented and adjusted many residential and commercial claims, focusing on delivering outstanding results for every client. Wyatt is deeply committed to alleviating his clients' burden in trying times, exploring every viable avenue of recovery to ensure maximum compensation, and allowing his clients the peace of mind to concentrate on rebuilding and progressing. His dedication and unparalleled drive to advocate for his clients set him apart, exemplifying a relentless pursuit of their well-being and satisfaction.
