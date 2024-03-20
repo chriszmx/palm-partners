@@ -182,14 +182,14 @@ const RecoveriesMap = () => {
     ];
 
     return (
-        <div className="relative">
+        <div className="">
             <div className="mb-8 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
                 30,000+ Recoveries Made Across Florida
             </div>
             <MapContainer
                 bounds={floridaBounds}
                 style={{ height: "50vh", width: "100%" }}
-                zoomControl={true}
+                zoomControl={false}
             >
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                 {recoveries.map((recovery) => (

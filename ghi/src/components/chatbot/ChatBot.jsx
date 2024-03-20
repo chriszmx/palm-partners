@@ -238,7 +238,7 @@ ADMIN@PALMPTS.com
     };
 
     return (
-        <div className="fixed bottom-4 right-4 flex flex-col items-end z-50 max-h-[calc(100%-8rem)] overflow-y-auto">
+        <div className="fixed bottom-4 right-4 flex flex-col items-end z-100 max-h-[calc(100%-8rem)] overflow-y-auto">
             {" "}
             {/* Position chat icon and box */}
             {/* Chat Icon */}

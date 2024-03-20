@@ -1,5 +1,5 @@
 // import { PhoneIcon, MailIcon,  } from '@heroicons/react/24/outline';
-import transparentLogoCropped from "../../assets/Palm-Partners-white-transparent-cropped.png";
+import SubscribeForm from "./SubscribeForm";
 
 const navigation = {
     company: [
@@ -84,30 +84,8 @@ export default function Footer() {
         <footer className="bg-gray-900 text-gray-300">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8 space-y-8 xl:space-y-0">
-                    <div>
-                        <a href="/">
-                            <img
-                                className="h-12"
-                                src={transparentLogoCropped}
-                                alt="Company name"
-                            />
-                        </a>
-                        <p className="mt-4 text-gray-400 text-sm">
-                            The latest news, articles, and resources, sent to
-                            your inbox weekly.
-                        </p>
-                        {/* Simplified subscription form */}
-                        <form className="mt-4 flex">
-                            <input
-                                type="email"
-                                className="rounded-md border-0 bg-white/10 px-4 py-2 mr-2 text-base text-white placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                                placeholder="Enter your email"
-                            />
-                            <button className="rounded-md bg-indigo-500 px-4 py-2 text-sm text-white">
-                                Subscribe
-                            </button>
-                        </form>
-                    </div>
+
+                    <SubscribeForm />
 
                     {/* Responsive grid for navigation */}
                     <div className="grid grid-cols-2 gap-8 xl:col-span-2">

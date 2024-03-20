@@ -1,4 +1,5 @@
 import React from "react";
+import ClaimForm from "../homepage/components/ClaimForm";
 
 const Claim = () => {
     return (
@@ -99,6 +100,7 @@ const Claim = () => {
                     ADMIN@PALMPTS.com or call us at +1 (954) 641-2018.
                 </p>
             </div>
+            <ClaimForm />
         </div>
     );
 };
