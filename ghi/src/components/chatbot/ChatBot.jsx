@@ -260,8 +260,8 @@ ADMIN@PALMPTS.com
                         className="flex flex-col gap-2"
                     >
                         <label htmlFor="question" className="font-semibold">
-                            Ask me anything about our services! I'm an AI here to help with quick
-                            questions.
+                            Ask me anything about our services! I'm an AI here
+                            to help with quick questions.
                         </label>
                         {/* Input Wrapper */}
                         <div className="relative">
