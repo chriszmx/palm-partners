@@ -14,8 +14,8 @@ import FAPIA from "../../assets/fapia.png";
 const VideoHeader = () => {
     // Define the video sources here
     const videos = [
-        video7,
         video6,
+        video7,
         video5,
         video4,
         video8,
