@@ -197,7 +197,7 @@ const VideoHeader = () => {
                 />
 
                 {/* Text container for large screens */}
-                <div className="absolute top-0 left-0 w-full h-full items-center justify-left bg-black bg-opacity-25 grid grid-cols-2">
+                <div className="absolute top-0 left-0 w-full h-full items-center justify-left bg-black/20 grid grid-cols-2">
                     {/* GRID LEFT  */}
 
                     <div className="col-span-2 md:col-span-1">

@@ -115,7 +115,7 @@ const HeaderClaimForm = () => {
     };
 
     return (
-        <div className="w-full max-w-4xl mx-auto bg-white/60 p-6 lg:p-8 shadow-md rounded-lg">
+        <div className="w-full max-w-4xl mx-auto bg-gray-200/80 p-6 lg:p-8 shadow-md rounded-lg">
             <form onSubmit={handleSubmit} className="space-y-1 lg:space-y-6">
                 <h2 className="text-lg lg:text-2xl font-semibold text-gray-800">
                     Need help with a claim?
