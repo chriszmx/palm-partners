@@ -10,6 +10,7 @@ import video8 from "../../assets/video/leak.mp4";
 import video9 from "../../assets/video/mold.mp4";
 import BBB from "../../assets/BBB-Logo-1.png";
 import FAPIA from "../../assets/fapia.png";
+import HeaderClaimForm from "./components/HeaderClaimForm";
 
 const VideoHeader = () => {
     // Define the video sources here
@@ -195,42 +196,53 @@ const VideoHeader = () => {
                     } bg-slate-500`}
                 />
 
-                {/* Text container */}
-                <div className="absolute top-0 left-0 w-full h-full flex items-center justify-left bg-black bg-opacity-25">
-                    <div className="text-center p-8">
-                        <h1 className="text-white text-6xl font-bold mb-6">
-                            PALM PARTNERS
-                        </h1>
-                        <p className="text-white text-3xl mb-8">
-                            Public Adjusting Loss Management
-                        </p>
+                {/* Text container for large screens */}
+                <div className="absolute top-0 left-0 w-full h-full items-center justify-left bg-black bg-opacity-25 grid grid-cols-2">
+                    {/* GRID LEFT  */}
 
-                        <div className="contact-us-mobile hidden sm:mb-8 sm:flex sm:justify-center">
-                            <div className="relative rounded-full px-3 py-1 text-2xl leading-6 text-gray-100 ring-1 ring-white/40 hover:ring-white/80">
-                                <a
-                                    href="/contact-us"
-                                    className="font-semibold text-white"
-                                >
-                                    <span
-                                        className="absolute inset-0"
-                                        aria-hidden="true"
-                                    />
-                                    CONTACT US TODAY
-                                </a>
+                    <div className="col-span-2 md:col-span-1">
+                        <div className="text-center p-8">
+                            <h1 className="text-white text-6xl font-bold mb-6">
+                                PALM PARTNERS
+                            </h1>
+                            <p className="text-white text-3xl mb-8">
+                                Public Adjusting Loss Management
+                            </p>
+
+                            <div className="contact-us-mobile hidden sm:mb-8 sm:flex sm:justify-center">
+                                <div className="relative rounded-full px-3 py-1 text-2xl leading-6 text-gray-100 ring-1 ring-white/40 hover:ring-white/80">
+                                    <a
+                                        href="/contact-us"
+                                        className="font-semibold text-white"
+                                    >
+                                        <span
+                                            className="absolute inset-0"
+                                            aria-hidden="true"
+                                        />
+                                        CONTACT US TODAY
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="flex justify-center items-center gap-4">
+                                <img
+                                    src={BBB}
+                                    alt="BBB"
+                                    className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg"
+                                />
+                                <img
+                                    src={FAPIA}
+                                    alt="FAPIA"
+                                    className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg"
+                                />
                             </div>
                         </div>
+                    </div>
 
-                        <div className="flex justify-center items-center gap-4">
-                            <img
-                                src={BBB}
-                                alt="BBB"
-                                className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg"
-                            />
-                            <img
-                                src={FAPIA}
-                                alt="FAPIA"
-                                className="w-36 h-auto bg-gray-200 rounded-xl shadow-lg"
-                            />
+                    {/* GRID RIGHT  */}
+                    <div className="hidden md:block col-span-1">
+                        <div className="p-8">
+                            <HeaderClaimForm />
                         </div>
                     </div>
                 </div>

@@ -37,7 +37,7 @@ const Home = () => {
                         }
                         `}
                 </script>
-                        {/* <!-- FAQ Schema --> */}
+                {/* <!-- FAQ Schema --> */}
                 <script type="application/ld+json">
                     {`
                         {
@@ -134,7 +134,9 @@ const Home = () => {
 
             <VideoHeader />
             <ChoosePalmPartners />
-            <ClaimForm />
+            <div className="block md:hidden">
+                <ClaimForm />
+            </div>
             <PalmPartnersIntro />
             <TypesOfClaims />
             <Reviews />
