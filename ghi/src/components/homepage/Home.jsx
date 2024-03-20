@@ -7,6 +7,7 @@ import RecoveriesMap from "./components/RecoveriesMap";
 import FAQ from "./components/FAQ";
 import ContactToday from "./components/ContactToday";
 import Reviews from "./components/Reviews";
+import ClaimForm from "./components/ClaimForm";
 import { Helmet } from "react-helmet";
 
 // import ChatBot from "../chatbot/ChatBot";
@@ -133,6 +134,7 @@ const Home = () => {
 
             <VideoHeader />
             <ChoosePalmPartners />
+            <ClaimForm />
             <PalmPartnersIntro />
             <TypesOfClaims />
             <Reviews />

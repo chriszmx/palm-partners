@@ -7,7 +7,7 @@ const ChatBot = () => {
     const [response, setResponse] = useState("");
     const [loading, setLoading] = useState(false);
     const [docId, setDocId] = useState(null);
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     // A simple knowledge base for the chatbot
     const knowledgeBaseDescription = `***
@@ -260,8 +260,8 @@ ADMIN@PALMPTS.com
                         className="flex flex-col gap-2"
                     >
                         <label htmlFor="question" className="font-semibold">
-                            Ask me anything! I'm an AI here to help with quick
-                            questions. What's on your mind?
+                            Ask me anything about our services! I'm an AI here to help with quick
+                            questions.
                         </label>
                         {/* Input Wrapper */}
                         <div className="relative">
