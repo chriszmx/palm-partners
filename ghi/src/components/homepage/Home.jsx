@@ -16,6 +16,9 @@ const Home = () => {
     return (
         <div>
             <Helmet>
+                <title>Trusted Property Claims Adjusters - Palm Partners</title>
+                <meta name="description" content="Protect your rights with Palm Partners. Expert property claims adjusters ensure fair settlements for insurance claims. Get professional help today." />
+                <link rel="canonical" href="https://palmpts.com/" />
                 <script type="application/ld+json">
                     {`
                         {
