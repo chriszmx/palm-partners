@@ -1,8 +1,14 @@
 import { DocumentTextIcon, ShieldCheckIcon, ScaleIcon } from '@heroicons/react/20/solid'
+import { Helmet } from 'react-helmet'
 
 export default function ComprehensiveClaimsManagement() {
   return (
     <div className="relative bg-white">
+      <Helmet>
+        <title>Expert Property Insurance Claims Management - Palm Partners</title>
+        <meta name="description" content="Trust Palm Partners for meticulous property insurance claims management. Our Florida adjusters ensure fair settlements & client advocacy." />
+        <link rel="canonical" href="https://palmpts.com/services/comprehensive-claims-management" />
+      </Helmet>
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
