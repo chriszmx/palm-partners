@@ -129,9 +129,13 @@ export default function ContactForm() {
                             "@context": "https://schema.org",
                             "@type": "Organization",
                             "name": "Palm Partners",
-                            "alternateName": "PalmPTS",
-                            "url": "https://palmpts.com/",
+                            "url": "https://palmpts.com/contact-us",
                             "logo": "https://palmpts.com/assets/Palm-Partners-transparent-cropped-rsDK4GZe.png",
+                            "contactPoint": {
+                                "@type": "ContactPoint",
+                                "telephone": "+19546412018",
+                                "contactType": "customer service"
+                            },
                         }
                         `}
                 </script>
