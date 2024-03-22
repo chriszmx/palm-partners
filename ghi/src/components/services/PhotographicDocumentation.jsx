@@ -1,8 +1,14 @@
 import { CameraIcon, ShieldCheckIcon, DocumentTextIcon } from '@heroicons/react/20/solid'
+import { Helmet } from 'react-helmet'
 
 export default function PhotographicDocumentation() {
   return (
     <div className="relative bg-white">
+      <Helmet>
+        <title>Palm Partners: Precision Photographic Evidence for Claims</title>
+        <meta name="description" content="Palm Partners offers comprehensive photographic documentation to bolster insurance claims ensuring thorough and precise photographic evidence." />
+        <link rel="canonical" href="https://palmpts.com/services/photographic-documentation" />
+      </Helmet>
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
