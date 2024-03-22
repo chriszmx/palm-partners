@@ -1,8 +1,14 @@
 import { ScaleIcon, DocumentTextIcon, HomeIcon } from '@heroicons/react/20/solid'
+import { Helmet } from 'react-helmet'
 
 export default function SketchAndHomeDimensions() {
   return (
     <div className="relative bg-white">
+      <Helmet>
+        <title>House Floor Plans by Palm Partners: Precision for Claims</title>
+        <meta name="description" content="Palm Partners offers precise house floor plans for insurance claims. Get accurate sketches & measurements to support your claim. Trust our expertise." />
+        <link rel="canonical" href="https://palmpts.com/services/sketch-and-home-dimensions" />
+      </Helmet>
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
         <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
           <div className="relative h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
