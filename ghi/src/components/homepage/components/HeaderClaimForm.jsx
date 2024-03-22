@@ -9,7 +9,6 @@ const HeaderClaimForm = () => {
         name: "",
         phoneNumber: "",
         address: "",
-        claimNumber: "",
         email: "",
         descriptionOfLoss: "",
     });
@@ -76,7 +75,6 @@ const HeaderClaimForm = () => {
             <strong>Name:</strong> ${formData.name}<br/>
             <strong>Phone Number:</strong> ${formData.phoneNumber}<br/>
             <strong>Address:</strong> ${formData.address}<br/>
-            <strong>Claim Number:</strong> ${formData.claimNumber}<br/>
             <strong>Email:</strong> ${formData.email}<br/>
             <strong>Description of Loss:</strong> ${formData.descriptionOfLoss}<br/>
         </div>
@@ -104,7 +102,6 @@ const HeaderClaimForm = () => {
                 name: "",
                 phoneNumber: "",
                 address: "",
-                claimNumber: "",
                 email: "",
                 descriptionOfLoss: "",
             });
@@ -147,7 +144,7 @@ const HeaderClaimForm = () => {
                             required
                         />
                     </div>
-                    <div className="md:col-span-2">
+                    <div className="md:col-span-1">
                         <label className="block text-sm font-bold text-gray-800">
                             Address:
                         </label>
@@ -160,19 +157,7 @@ const HeaderClaimForm = () => {
                             required
                         />
                     </div>
-                    <div>
-                        <label className="block text-sm font-bold text-gray-800">
-                            Claim Number:
-                        </label>
-                        <input
-                            type="text"
-                            name="claimNumber"
-                            value={formData.claimNumber}
-                            onChange={handleChange}
-                            className="mt-1 block w-full p-1 lg:p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 bg-white/20"
-                        />
-                    </div>
-                    <div>
+                    <div className="col-span-1">
                         <label className="block text-sm font-bold text-gray-800">
                             Email:
                         </label>
@@ -194,7 +179,7 @@ const HeaderClaimForm = () => {
                             value={formData.descriptionOfLoss}
                             onChange={handleChange}
                             className="mt-1 block w-full p-1 lg:p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 bg-white/20"
-                            rows="1"
+                            rows="2"
                             required
                         ></textarea>
                     </div>
@@ -203,7 +188,7 @@ const HeaderClaimForm = () => {
                     type="submit"
                     className="w-full md:w-auto px-3 lg:px-6 py-1 lg:py-3 bg-blue-600/70 text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                 >
-                    Submit Claim
+                    Submit
                 </button>
             </form>
             <ToastContainer />
