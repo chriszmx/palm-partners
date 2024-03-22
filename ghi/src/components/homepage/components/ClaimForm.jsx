@@ -9,7 +9,6 @@ const ClaimForm = () => {
         name: "",
         phoneNumber: "",
         address: "",
-        claimNumber: "",
         email: "",
         descriptionOfLoss: "",
     });
@@ -76,7 +75,6 @@ const ClaimForm = () => {
             <strong>Name:</strong> ${formData.name}<br/>
             <strong>Phone Number:</strong> ${formData.phoneNumber}<br/>
             <strong>Address:</strong> ${formData.address}<br/>
-            <strong>Claim Number:</strong> ${formData.claimNumber}<br/>
             <strong>Email:</strong> ${formData.email}<br/>
             <strong>Description of Loss:</strong> ${formData.descriptionOfLoss}<br/>
         </div>
@@ -104,7 +102,6 @@ const ClaimForm = () => {
                 name: "",
                 phoneNumber: "",
                 address: "",
-                claimNumber: "",
                 email: "",
                 descriptionOfLoss: "",
             });
@@ -120,7 +117,7 @@ const ClaimForm = () => {
                 <h2 className="text-xl font-semibold text-gray-800">
                     Need help with a claim?
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
                     <div>
                         <label className="block text-sm font-medium text-gray-700">
                             Name:
@@ -147,7 +144,7 @@ const ClaimForm = () => {
                             required
                         />
                     </div>
-                    <div className="md:col-span-2">
+                    <div className="col-span-1">
                         <label className="block text-sm font-medium text-gray-700">
                             Address:
                         </label>
@@ -158,18 +155,6 @@ const ClaimForm = () => {
                             onChange={handleChange}
                             className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                             required
-                        />
-                    </div>
-                    <div>
-                        <label className="block text-sm font-medium text-gray-700">
-                            Claim Number:
-                        </label>
-                        <input
-                            type="text"
-                            name="claimNumber"
-                            value={formData.claimNumber}
-                            onChange={handleChange}
-                            className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
                         />
                     </div>
                     <div>
@@ -185,7 +170,7 @@ const ClaimForm = () => {
                             required
                         />
                     </div>
-                    <div className="md:col-span-2">
+                    <div className="col-span-2">
                         <label className="block text-sm font-medium text-gray-700">
                             Description of Loss:
                         </label>
@@ -203,7 +188,7 @@ const ClaimForm = () => {
                     type="submit"
                     className="w-full md:w-auto px-6 py-3 bg-blue-500 text-white font-medium rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                 >
-                    Submit Claim
+                    Submit
                 </button>
             </form>
             <ToastContainer />
