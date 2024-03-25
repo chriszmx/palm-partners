@@ -1,9 +1,18 @@
 import React from "react";
 import ClaimForm from "../homepage/components/ClaimForm";
+import { Helmet } from "react-helmet";
 
 const Claim = () => {
     return (
         <div className="bg-gray-100 p-8">
+            <Helmet>
+                <title>Insurance Claims Assistance | Palm Partners Public Adjusting</title>
+                <meta
+                    name="description"
+                    content="Palm Partners Public Adjusting specializes in guiding Florida homeowners and business owners through the complexity of property insurance claims. Contact us for a free consultation."
+                />
+                <link rel="canonical" href="https://palmpts.com/claim" />
+            </Helmet>
             <div className="max-w-4xl mx-auto p-6">
                 <h1 className="text-3xl font-bold border-b-2 border-gray-200 pb-4 mb-6">
                     Insurance Claims Assistance
