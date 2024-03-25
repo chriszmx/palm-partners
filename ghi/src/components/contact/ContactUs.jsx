@@ -123,6 +123,15 @@ export default function ContactForm() {
     return (
         <div className="relative isolate bg-white">
             <Helmet>
+                <title>Contact Us | Palm Partners</title>
+                <meta
+                    name="description"
+                    content="Get in touch with Palm Partners for expert insurance claims assistance. Our team is dedicated to helping you navigate through the complexities of insurance claims."
+                />
+                <link
+                    rel="canonical"
+                    href="https://palmpts.com/contact-us"
+                />
                 <script type="application/ld+json">
                     {`
                         {
