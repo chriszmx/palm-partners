@@ -1,8 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Terms = () => {
     return (
         <div className="bg-gray-100 p-8">
+            <Helmet>
+                <title>Terms of Service | Palm Partners Public Adjusting</title>
+                <meta
+                    name="description"
+                    content="Palm Partners Public Adjusting Terms of Service. Read the terms and conditions governing the use of our website and services."
+                />
+                <link rel="canonical" href="https://palmpts.com/terms" />
+            </Helmet>
             <div className="max-w-4xl mx-auto p-6">
                 <h1 className="text-3xl font-bold border-b-2 border-gray-200 pb-4 mb-6">
                     Terms of Service
