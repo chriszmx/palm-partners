@@ -1,8 +1,17 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Privacy = () => {
     return (
         <div className="bg-gray-100 py-8 px-4 sm:px-6 lg:px-8">
+            <Helmet>
+                <title>Privacy Policy | Palm Partners Public Adjusting</title>
+                <meta
+                    name="description"
+                    content="Palm Partners Public Adjusting Privacy Policy. Learn how we collect, use, and protect your personal information when you visit our website."
+                />
+                <link rel="canonical" href="https://palmpts.com/privacy" />
+            </Helmet>
             <div className="max-w-3xl mx-auto text-gray-800">
                 <h1 className="text-2xl font-bold text-gray-900 mb-4">Privacy Policy</h1>
                 <p className="mb-4">
